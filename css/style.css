@@ -1,0 +1,46 @@
+body{font-family: Roboto}
+.navbar-brand{
+  font-family: LyonText, Georgia, serif !important;
+  font-weight: bold;
+}
+.container{
+  position: relative;
+  min-height: 100vh;
+}
+.row{padding-bottom: 3rem}
+a{color: #2F6FBD}
+textarea {
+  overflow: auto;
+  resize: none;
+}
+p {margin:0;}
+.btn-primary{
+  background-color:#3276b1;
+  border-color: #285e8e;
+}
+.btn-primary:hover{
+  background-color:#2d6ca2;
+  border-color: #285e8e;
+}
+.btn-primary.disabled, .btn-primary:disabled{
+  background-color:#3276b1;
+  border-color: #285e8e;
+}
+
+.hidden-element{display: none;}
+
+.font-small{font-size: 85%}
+.font-very-small{font-size: 80%}
+.ngay-tra-cuu{color: #ccc;}
+
+.plus:before{content: '\02795   '; font-size: xx-small; vertical-align: 10%;color: #2F6FBD}
+.minus:before{content: '\2796   '; font-size: xx-small; vertical-align: 10%;color: #2F6FBD}
+
+.footer {
+  position: absolute;
+  border-top: #ccc 1px solid;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+}
+.list-inline-item:not(:last-child){margin-right: 2rem;}
