@@ -44,3 +44,11 @@ p {margin:0;}
   height: 3rem;
 }
 .list-inline-item:not(:last-child){margin-right: 2rem;}
+.cata-menu{padding: .5rem 0}
+.list-group-item {
+  padding: .5rem 1.25rem;
+  font-size: 85%;
+}
+.badge-small{margin-left: 3px; font-size: 65%; font-weight: 550;}
+#my-iframe{border: #ccc 1px solid;
+}
