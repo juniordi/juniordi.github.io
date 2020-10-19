@@ -1,6 +1,3 @@
 User-agent: *
-Disallow: /css/
-Disallow: /js/
 Disallow: /download/
-Disallow: /vb/
 Allow: /
