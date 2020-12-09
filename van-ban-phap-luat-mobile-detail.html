@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176859915-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-176859915-1');
+    </script>
+    <script data-ad-client="ca-pub-5450749028139171" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta charset="utf-8">
+    <title>Văn bản pháp luật</title>
+    <meta name="description" content="Hệ thống văn bản về thuế mới nhất">
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+        <nav id="top-page" class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index-mobile.html">appTax</a>
+        </nav>
+        <div class="row">
+            <div class="col-sm-12">
+              <div id="breadcrumb"></div>
+              <div id="noi-dung">
+                <p>Hệ thống Luật, Nghị định, Thông tư, Văn bản hợp nhất về thuế</p>
+              </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lib.js"></script>
+    <script type="text/javascript">
+      function click_link(e){var t,n,a=document.getElementById("noi-dung"),i="Rất tiếc văn bản này chưa được hệ thống cập nhật";if(""==window.location.hash.trim()){document.getElementById("breadcrumb").textContent="",window.location.href.indexOf("#")>=0?a.textContent=i:a.innerHTML='<p style="padding-top:1rem">Hệ thống Luật, Nghị định, Thông tư, Văn bản hợp nhất về thuế</p>'}else{var l=e.split("#")[1].split("/");""!==l[1].trim()?load_json(function(e){var d=JSON.parse(e).all;n=!1;for(var o=0;o<d.length;o++)if(detail=d[o],detail.id===l[1]){n=!0,document.getElementById("breadcrumb").innerHTML=`<nav aria-label="breadcrumb">\n                                                                              <ol class="breadcrumb">\n                                                                                <li class="breadcrumb-item">${detail.loai_van_ban} số ${detail.tieu_de}</li>\n                                                                              </ol>\n                                                                            </nav>`;var r="";if(document.title=detail.loai_van_ban+" số "+detail.tieu_de,detail.huong_dan_cho.length>0){t=detail.huong_dan_cho,r+="<li>Hướng dẫn cho: ";for(var c=0;c<t.length;c++)r+=`<a href="#apptax/${t[c].id}">${t[c].ten}</a>, `;r=r.replace(/, $/g,""),r+="</li>"}if(detail.sua_doi_cho.length>0){var h=detail.sua_doi_cho;r+="<li>Sửa đổi cho: ";for(c=0;c<h.length;c++)r+=`<a href="#apptax/${h[c].id}">${h[c].ten}</a>, `;r=r.replace(/, $/g,""),r+="</li>"}if(detail.thay_the_cho.length>0){var u=detail.thay_the_cho;r+="<li>Thay thế cho: ";for(c=0;c<u.length;c++)r+=`<a href="#apptax/${u[c].id}">${u[c].ten}</a>, `;r=r.replace(/, $/g,""),r+="</li>"}if(detail.hop_nhat_cho.length>0){t=detail.hop_nhat_cho,r+="<li>Hợp nhất cho: ";for(c=0;c<t.length;c++)r+=`<a href="#apptax/${t[c].id}">${t[c].ten}</a>, `;r=r.replace(/, $/g,""),r+="</li>"}if(detail.huong_dan_boi.length>0){t=detail.huong_dan_boi,r+="<li>Đã có văn bản hướng dẫn: ";for(c=0;c<t.length;c++)r+=`<a href="#apptax/${t[c].id}">${t[c].ten}</a>, `;r=r.replace(/, $/g,""),r+="</li>"}if(detail.bi_sua_boi.length>0){var s=detail.bi_sua_boi;r+="<li>Bị sửa bởi: ";for(c=0;c<s.length;c++)r+=`<a href="#apptax/${s[c].id}">${s[c].ten}</a>, `;r=r.replace(/, $/g,""),r+="</li>"}if(detail.bi_thay_boi.length>0){var p=detail.bi_thay_boi;r+="<li>Bị thay bởi: ";for(c=0;c<p.length;c++)r+=`<a href="#apptax/${p[c].id}">${p[c].ten}</a>, `;r=r.replace(/, $/g,""),r+="</li>"}if(detail.hop_nhat_boi.length>0){t=detail.hop_nhat_boi,r+="<li>Hợp nhất bởi: ";for(c=0;c<t.length;c++)r+=`<a href="#apptax/${t[c].id}">${t[c].ten}</a>, `;r=r.replace(/, $/g,""),r+="</li>"}if(""!==detail.ngay_ban_hanh.trim()&&(r+=`<li>Ngày ban hành: ${detail.ngay_ban_hanh}</li>`),""!==detail.ngay_hieu_luc.trim()&&(r+=`<li>Ngày hiệu lực: ${detail.ngay_hieu_luc}</li>`),""!==detail.ngay_het_han.trim()&&(r+=`<li><span class="badge badge-danger">Ngày hết hiệu lực: ${detail.ngay_het_han}</span></li>`),detail.download.length>0){t=detail.download,r+="<li>Download: ";for(c=0;c<t.length;c++)r+=`<a href="download/${t[c].path}">${t[c].desc}</a>, `;r=r.replace(/, $/g,""),r+="</li>"}if(""!==r&&(r='<ul class="list-unstyled">'+r+"</ul>"),a.innerHTML=r,""!==detail.url.trim()){if("doc"===detail.file_type){var g=document.createElement("iframe");g.setAttribute("id","my-iframe"),g.setAttribute("scrolling","no"),g.setAttribute("width","100%"),g.setAttribute("src",`vb/${detail.url}.htm`),a.appendChild(g),window.addEventListener("message",function(e){var t=e.data;document.getElementById("my-iframe").style.height=t+"px"},!1)}else if("ard"===detail.file_type){var b=document.createElement("object");b.setAttribute("type","application/pdf"),b.setAttribute("width","100%"),b.setAttribute("height","800px"),b.setAttribute("data",`vb/${detail.url}.pdf`),a.appendChild(b)}}else document.getElementById("breadcrumb").textContent="",a.innerHTML+="<p>"+i+"</p>";break}n||(document.getElementById("breadcrumb").textContent="",a.innerHTML="<p>"+i+"</p>")}):(document.getElementById("breadcrumb").textContent="",a.textContent=i)}document.getElementById("top-page").scrollIntoView({behavior:"smooth"})}function load_json(e){var t=new XMLHttpRequest;t.overrideMimeType("application/json"),t.open("GET","catalogue/vbpl.json",!0),t.onreadystatechange=function(){4==t.readyState&&"200"==t.status&&e(t.responseText)},t.setRequestHeader("cache-control","no-cache, must-revalidate, post-check=0, pre-check=0"),t.send(null)}function click_cata(e){var t=e.getAttribute("id"),n=document.getElementById("sub-"+t);"display: none;"===n.getAttribute("style").trim()?n.setAttribute("style","display: block;"):n.setAttribute("style","display: none;")}function findByTextContent(e,t,n){var a;if(!t)return!1;"string"==typeof t?a=[].slice.call(document.querySelectorAll(t),0):t.length&&(a=[].slice.call(t,0));var i="textContent"in document?"textContent":"innerText",l=!0===n?new RegExp("\\b"+e+"\\b"):new RegExp(e),d=a.filter(function(e){return l.test(e[i])});return!!d.length&&d}function load_data(){addr=window.location.hash.trim(),click_link(addr)}document.addEventListener("DOMContentLoaded",function(){load_data(),window.addEventListener("hashchange",load_data,!1),document.getElementById("txtSearchVb").addEventListener("change",function(){var e=document.getElementById("txtSearchVb");""!==e.value.trim()?(document.querySelectorAll(".list-group").forEach(function(e){e.style.display="block"}),document.querySelectorAll(".link-vb").forEach(function(e){e.parentNode.style.display="none"}),findByTextContent(e.value,".link-vb").forEach(function(e){e.parentNode.style.display=""})):(document.querySelectorAll(".list-group").forEach(function(e){e.style.display="none"}),document.querySelectorAll(".link-vb").forEach(function(e){e.parentNode.style.display="block"}))})});
+    </script>
+  </body>
+</html>
