@@ -4,4 +4,5 @@ Disallow: /index-mobile.html
 Disallow: /van-ban-phap-luat-mobile.html
 Disallow: /van-ban-phap-luat-mobile-list.html
 Disallow: /van-ban-phap-luat-mobile-detail.html
+Disallow: /noi-dung-kinh-te-mobile.html
 Allow: /
