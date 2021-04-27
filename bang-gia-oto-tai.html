@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176859915-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-176859915-1');
+    </script>
+    <script data-ad-client="ca-pub-5450749028139171" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <meta charset="utf-8">
+    <title>Bảng giá tính thuế xe ô tô tải</title>
+    <meta name="description" content="Bảng giá tính thuế xe máy, ô tô, ô tô tải, mô tô mới nhất, tra cứu giá xe">
+    <meta name="keywords" content="Bảng giá tính thuế xe máy, ô tô, ô tô tải, mô tô mới nhất, tra cứu giá xe" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.dataTables.min.css">
+    <style type="text/css">
+      #tblData{min-height: 60vh;font-size: 80%}
+      .tabs{padding-top:0.5em;}
+    </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" w3-include-html="menu.html">
+        </nav>
+        <div class="row">
+            <div class="col-sm-12">
+              <ul class="nav nav-tabs tabs">
+                <li class="nav-item">
+                  <a class="nav-link" href="bang-gia-xe-may.html">Xe máy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="bang-gia-oto-con.html">Ô tô con, xe 4 bánh gắn động cơ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="bang-gia-oto-khach.html">Ô tô khách</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Ô tô tải</a>
+                </li>
+              </ul>
+              <h3 style="padding: 0.5em 0">Bảng giá tính thuế xe ô tô tải</h3>
+              <div id="loading">Xin hãy đợi...</div>
+              <table id="tblData" class="display table table-sm" width="100%"></table>
+            </div>
+        </div>
+        <footer class="footer" include-footer="footer.html">
+        </footer>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/library2.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          includeHTML();
+          includeFooter();
+          $.getJSON('https://script.google.com/macros/s/AKfycbx3v9VIDsqwTpClbYljMbUYIEW3IK8KE1gVxYRZ0tXGb-XPPFU/exec', function(data) {
+            $('#loading').hide();
+              // JSON result in `data` variable
+              var col = [];
+              for (var i=0; i<data[0].length; i++){
+                col.push({title:data[0][i]});
+              }
+              data.shift();
+              $('#tblData').DataTable({
+                "language": {"url": "//localhost/tinhphat/js/vietnam.json"},
+                "lengthMenu": [[50, 100, 150, 200], [50, 100, 150, 200]],
+                data: data,
+                columns: col,
+                "columnDefs": [{
+                  "targets": [5],
+                  "render": function(data, type, row) {
+                    return data.toString().replace(
+                      /\B(?=(\d{3})+(?!\d))/g, "."
+                    );
+                  }
+                },{
+                  "targets": [7],
+                  "render": function(data, type, row) {
+                    if (data != ''){
+                      d = new Date(data);
+                      return ('0'+d.getDate()).slice(-2)+'/'+('0'+(d.getMonth()+1)).slice(-2)+'/'+d.getFullYear();
+                    } else{
+                      return '';
+                    }
+                  }
+                },{
+                  "targets": [8],
+                  "render": function(data, type, row) {
+                    if (data != ''){
+                      d = new Date(data);
+                      return ('0'+d.getDate()).slice(-2)+'/'+('0'+(d.getMonth()+1)).slice(-2)+'/'+d.getFullYear();
+                    } else{
+                      return '';
+                    }
+                }
+              }
+
+                ],
+                "formatNumber": function ( toFormat ) {
+                    return toFormat.toString().replace(
+                      /\B(?=(\d{3})+(?!\d))/g, "."
+                    );
+                  }
+              });
+          });
+        });
+    </script>
+  </body>
+</html>

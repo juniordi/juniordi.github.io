@@ -22,30 +22,7 @@
   </head>
   <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">appTax</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse  navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Tính chậm nộp</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="van-ban-phap-luat.html">Văn bản pháp luật</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="noi-dung-kinh-te.html">Nội dung kinh tế (mục, tiểu mục)</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="danh-muc-chuong.html">Danh mục chương</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://facebook.com/suribeautyshop" target="_blank" rel="nofollow">Shop</a>
-                </li>
-            </ul>
-          </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" w3-include-html="menu.html">
         </nav>
         <div class="row">
             <div class="col-sm-9">
@@ -99,26 +76,17 @@
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <div>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="index.html">Trang chủ</a></li>
-                  <li class="list-inline-item"><a href="https://lehoangdieu.blogspot.com/">Hướng dẫn khai nộp thuế</a></li>
-                  <li class="list-inline-item"><a href="https://www.facebook.com/khainopthue" target="_blank" rel="nofollow">Fanpage</a></li>
-                  <li class="list-inline-item"><a href="https://facebook.com/suribeautyshop" target="_blank" rel="nofollow">Shop của tui</a></li>
-                  <li class="list-inline-item"><a href="http://tracuuhoadon.gdt.gov.vn" target="_blank" rel="nofollow">Tra cứu hóa đơn</a></li>
-                </ul>
-          </div>      
-            <div class="text-muted">© Copyright 2020 <a href="mailto:lehoangdieu@gmail.com">lehoangdieu</a></div>
+        <footer class="footer" include-footer="footer.html">
         </footer>
     </div>
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/library2.js"></script>
+    <script src="js/menu.js"></script>
     <script src="js/index_ver3.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){$("#txtTuNgay").focusout(function(){auto_fill_date("#txtTuNgay")}),$("#txtDenNgay").focusout(function(){auto_fill_date("#txtDenNgay")}),"undefined"!=typeof Storage&&localStorage.length>0&&(document.getElementById("link-history").style.display="block"),document.getElementById("link-view-history").addEventListener("click",function(t){view_data_history()}),document.getElementById("frm").addEventListener("submit",function(t){var e=document.getElementById("txtSoTien").value,n=!0,l=!0,a=!0,o=!0;if(IsNumeric(e)&&""!==e.trim()?document.getElementById("warning").innerHTML="":(document.getElementById("warning").innerHTML='<span style="color:red">Số tiền không được để trống hoặc bạn sai định dạng, số tiền phải là số nguyên dương</span>',n=!1),check_date("#txtTuNgay")?document.getElementById("warning1").innerHTML="":(document.getElementById("warning1").innerHTML='<span style="color:red">Phải nhập ngày tính phạt từ ngày nào</span>',l=!1),check_date("#txtDenNgay")?document.getElementById("warning2").innerHTML="":(document.getElementById("warning2").innerHTML='<span style="color:red">Phải nhập ngày tính phạt đến ngày nào</span>',a=!1),date_greater_or_equal_date("#txtDenNgay","#txtTuNgay","Đến ngày phải lớn hơn từ ngày. Bạn hãy nhập lại")||(o=!1),n&&l&&a&&o){var r=document.getElementById("txtTuNgay").value,d=document.getElementById("txtDenNgay").value,i=document.querySelector('input[name="rdType"]:checked').value;result=tinh_phat(r,d,e,parseInt(i)),html='<table class="table table-striped table-hover table-sm table-responsive-sm font-very-small"><thead><tr><th scope="col">Chi tiết</th><th scope="col">Diễn giải</th></tr></thead><tbody>';for(var u=0;u<result.kq.length;u++)html+=`<tr><td>${result.kq[u]}</td><td>${result.dg[u]}</td></tr>`;html+="</tbody></table>",document.getElementById("result").innerHTML=html,"undefined"!=typeof Storage&&(result.input="1"==i?`Tính chậm nộp tiền thuế ${number_format(e)} từ ${r}-${d}`:`Tính chậm nộp vi phạm hành chính (chậm nộp tiền phạt) ${number_format(e)} từ ${r}-${d}`,result.tgian=Date.now(),window.localStorage.setItem(uuid(),JSON.stringify(result)),localStorage.length>0&&(document.getElementById("link-history").style.display="block"))}t.preventDefault()})});
+        $(document).ready(function(){includeHTML();includeFooter();$("#txtTuNgay").focusout(function(){auto_fill_date("#txtTuNgay")}),$("#txtDenNgay").focusout(function(){auto_fill_date("#txtDenNgay")}),"undefined"!=typeof Storage&&localStorage.length>0&&(document.getElementById("link-history").style.display="block"),document.getElementById("link-view-history").addEventListener("click",function(t){view_data_history()}),document.getElementById("frm").addEventListener("submit",function(t){var e=document.getElementById("txtSoTien").value,n=!0,l=!0,a=!0,o=!0;if(IsNumeric(e)&&""!==e.trim()?document.getElementById("warning").innerHTML="":(document.getElementById("warning").innerHTML='<span style="color:red">Số tiền không được để trống hoặc bạn sai định dạng, số tiền phải là số nguyên dương</span>',n=!1),check_date("#txtTuNgay")?document.getElementById("warning1").innerHTML="":(document.getElementById("warning1").innerHTML='<span style="color:red">Phải nhập ngày tính phạt từ ngày nào</span>',l=!1),check_date("#txtDenNgay")?document.getElementById("warning2").innerHTML="":(document.getElementById("warning2").innerHTML='<span style="color:red">Phải nhập ngày tính phạt đến ngày nào</span>',a=!1),date_greater_or_equal_date("#txtDenNgay","#txtTuNgay","Đến ngày phải lớn hơn từ ngày. Bạn hãy nhập lại")||(o=!1),n&&l&&a&&o){var r=document.getElementById("txtTuNgay").value,d=document.getElementById("txtDenNgay").value,i=document.querySelector('input[name="rdType"]:checked').value;result=tinh_phat(r,d,e,parseInt(i)),html='<table class="table table-striped table-hover table-sm table-responsive-sm font-very-small"><thead><tr><th scope="col">Chi tiết</th><th scope="col">Diễn giải</th></tr></thead><tbody>';for(var u=0;u<result.kq.length;u++)html+=`<tr><td>${result.kq[u]}</td><td>${result.dg[u]}</td></tr>`;html+="</tbody></table>",document.getElementById("result").innerHTML=html,"undefined"!=typeof Storage&&(result.input="1"==i?`Tính chậm nộp tiền thuế ${number_format(e)} từ ${r}-${d}`:`Tính chậm nộp vi phạm hành chính (chậm nộp tiền phạt) ${number_format(e)} từ ${r}-${d}`,result.tgian=Date.now(),window.localStorage.setItem(uuid(),JSON.stringify(result)),localStorage.length>0&&(document.getElementById("link-history").style.display="block"))}t.preventDefault()})});
     </script>
   </body>
 </html>
