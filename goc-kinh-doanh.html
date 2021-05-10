@@ -22,6 +22,7 @@
     <style type="text/css">
       .tabs{padding-top:0.5em;}
       .view-sp{padding-top:0.5em;}
+      .card-text{font-size: 85%}
     </style>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -30,6 +31,17 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" w3-include-html="menu.html">
         </nav>
+        <div class="row">
+          <div class="col-sm-3 view-sp">
+            <select class="form-control" id="sltDanhMuc">
+              <option value="">--- Danh mục ---</option>
+            </select>
+          </div>
+          <div class="col-sm-3 view-sp">
+            <input type="text" class="form-control" id="txtSearch" name="txtSearch" placeholder="Tìm kiếm">
+          </div>
+        </div>
+        <div id="loading">Xin hãy đợi...</div>
         <div id="sp" class="row">
 
         </div>
@@ -43,18 +55,70 @@
     <script src="js/menu.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
     <script type="text/javascript">
+      function findByTextContent(needle, haystack, precise) {
+        // needle: String, the string to be found within the elements.
+        // haystack: String, a selector to be passed to document.querySelectorAll(),
+        //           NodeList, Array - to be iterated over within the function:
+        // precise: Boolean, true - searches for that precise string, surrounded by
+        //                          word-breaks,
+        //                   false - searches for the string occurring anywhere
+        var elems;
+
+        // no haystack we quit here, to avoid having to search
+        // the entire document:
+        if (!haystack) {
+          return false;
+        }
+        // if haystack is a string, we pass it to document.querySelectorAll(),
+        // and turn the results into an Array:
+        else if ('string' == typeof haystack) {
+          elems = [].slice.call(document.querySelectorAll(haystack), 0);
+        }
+        // if haystack has a length property, we convert it to an Array
+        // (if it's already an array, this is pointless, but not harmful):
+        else if (haystack.length) {
+          elems = [].slice.call(haystack, 0);
+        }
+
+        // work out whether we're looking at innerText (IE), or textContent 
+        // (in most other browsers)
+        var textProp = 'textContent' in document ? 'textContent' : 'innerText',
+          // creating a regex depending on whether we want a precise match, or not:
+          reg = precise === true ? new RegExp('\\b' + needle + '\\b') : new RegExp(needle),
+          // iterating over the elems array:
+          found = elems.filter(function(el) {
+            // returning the elements in which the text is, or includes,
+            // the needle to be found:
+            return reg.test(el[textProp]);
+          });
+        return found.length ? found : false;;
+      }
         $(document).ready(function(){
           includeHTML();
           includeFooter();
+          function remove_duplicates_safe(arr) {
+              var seen = {};
+              var ret_arr = [];
+              for (var i = 0; i < arr.length; i++) {
+                  if (!(arr[i] in seen)) {
+                      ret_arr.push(arr[i]);
+                      seen[arr[i]] = true;
+                  }
+              }
+              return ret_arr;
+
+          }
           function view_sp(data){
             markup = `
-              <div class="col-sm-3 view-sp">
+              <div class="col-sm-3 view-sp div-search-sp">
                 <img class="card-img-top" src="${data[9]}" alt="${data[3]}">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">${data[3]}</h5>
                     <p class="card-text">Giá: ${data[7].toLocaleString('it-IT', {style : 'currency', currency : 'VND'})}</p>
                     <p class="card-text">${data[4]}</p>
+                    <div class="div-search" style="display:none">${data[5].toLowerCase()}</div>
+                    <div class="div-danh-muc" style="display:none">${data[0]}</div>
                     <a href="https://m.me/suribeautyshop" target="_blank" class="btn">Đặt mua</a>
                     <a href="${data[10]}" target="_blank" ${data[10] == '' ? 'class="btn hidden-element"' : 'class="btn"'}>Link shopee</a>
                   </div>
@@ -67,10 +131,53 @@
             $('#loading').hide();
               // JSON result in `data` variable
               data.shift();
+              var dm = [];
               for (var i=0; i<data.length; i++){
+                dm.push(data[i][0]);
                 document.getElementById("sp").innerHTML += view_sp(data[i]);
               }
+              dm = remove_duplicates_safe(dm);
+
+              for (var i=0; i<dm.length; i++){
+                my_option = document.createElement("option");
+                my_option.setAttribute("value", dm[i]);
+                txt = document.createTextNode(dm[i]);
+                my_option.appendChild(txt);
+                document.getElementById("sltDanhMuc").appendChild(my_option);
+              }
           });
+          document.getElementById('txtSearch').addEventListener('change',function(){
+            var txt = document.getElementById('txtSearch').value.trim().toLowerCase();
+            if (txt !== ''){
+              document.querySelectorAll('.div-search').forEach(function(elem){
+                elem.parentNode.parentNode.parentNode.style.display = 'none';
+              });
+              findByTextContent(txt, '.div-search').forEach(function(elem){
+                elem.parentNode.parentNode.parentNode.style.display = '';
+              });
+            } else{
+              document.querySelectorAll('.div-search').forEach(function(elem){
+                elem.parentNode.parentNode.parentNode.style.display = '';
+              });
+            }
+          });
+          document.getElementById('sltDanhMuc').addEventListener('change',function(){
+            var txt = document.getElementById('sltDanhMuc').value;
+            //console.log(txt);
+            if (txt !== ''){
+              document.querySelectorAll('.div-danh-muc').forEach(function(elem){
+                elem.parentNode.parentNode.parentNode.style.display = 'none';
+              });
+              findByTextContent(txt, '.div-danh-muc').forEach(function(elem){
+                elem.parentNode.parentNode.parentNode.style.display = '';
+              });
+            } else{
+              document.querySelectorAll('.div-danh-muc').forEach(function(elem){
+                elem.parentNode.parentNode.parentNode.style.display = '';
+              });
+            }
+          });
+
         });
     </script>
   </body>
