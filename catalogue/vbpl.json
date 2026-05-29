@@ -6259,11 +6259,16 @@
         }
       ],
       "bi_sua_boi": [],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "Luat_108_2025_QH15",
+          "ten": "Luật Quản lý thuế số 108/2025/QH15"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "13/06/2019",
       "ngay_hieu_luc": "01/07/2020",
-      "ngay_het_han": "",
+      "ngay_het_han": "30/06/2026",
       "noi_ban_hanh": "Quốc hội",
       "tag": [
         1
@@ -6372,7 +6377,7 @@
         },
         {
           "id": "5f74a0cb4e556",
-          "ten": "Nghị định số 04/2014/NĐ-CP"
+          "ten": "Nghị̣định số 04/2014/NĐ-CP"
         }
       ],
       "hop_nhat_cho": [],
@@ -9620,6 +9625,36 @@
           "path": "nghi-dinh-34-2022-nd-cp.doc"
         }
       ]
+    },
+    {
+      "id": "Luat_108_2025_QH15",
+      "loai_van_ban": "Luật",
+      "tieu_de": "108/2025/QH15",
+      "mo_ta": "Luật Quản lý thuế số 108/2025/QH15",
+      "file_type": "doc",
+      "url": "Luat_108_2025_QH15",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "5f6b0c0f48028",
+          "ten": "Luật số 38/2019/QH14"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "10/12/2025",
+      "ngay_hieu_luc": "01/07/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Quốc hội",
+      "tag": [
+        1
+      ],
+      "dmuc": [],
+      "download": []
     }
   ],
   "dmuc": [
