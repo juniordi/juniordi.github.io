@@ -9654,6 +9654,71 @@
         1
       ],
       "dmuc": [],
+      "download": [
+        {
+          "desc": "Toàn văn",
+          "path": "Luat_108_2025_QH15.docx"
+        }
+      ]
+    },
+    {
+      "id": "ND_236_2025_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "236/2025/NĐ-CP",
+      "mo_ta": "Nghị định 236/2025/NĐ-CP ngày 29/8/2025 của Chính phủ Quy định chi tiết một số điều của Nghị quyết số 107/2023/QH15 ngày 29 tháng 11 năm 2023 của Quốc hội về việc áp dụng thuế thu nhập doanh nghiệp bổ sung theo quy định chống xói mòn cơ sở thuế toàn cầu",
+      "file_type": "ard",
+      "url": "ND_236_2025_ND_CP",
+      "huong_dan_cho": [
+        {
+          "id": "NQ_107_2023_qh15",
+          "ten": "Nghị quyết số 107/2023/QH15"
+        }
+      ],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "29/08/2025",
+      "ngay_hieu_luc": "15/10/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        3.22
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "NQ_107_2023_qh15",
+      "loai_van_ban": "Nghị quyết",
+      "tieu_de": "107/2023/QH15",
+      "mo_ta": "Nghị quyết số 107/2023/QH15 của Quốc hội Về việc áp dụng thuế thu nhập doanh nghiệp bổ sung theo quy định chống xói mòn cơ sở thuế toàn cầu",
+      "file_type": "ard",
+      "url": "NQ_107_qh15",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [
+        {
+          "id": "ND_236_2025_ND_CP",
+          "ten": "Nghị định 236/2025/NĐ-CP ngày 29/8/2025 của Chính phủ"
+        }
+      ],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "29/11/2023",
+      "ngay_hieu_luc": "01/01/2024",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Quốc hội",
+      "tag": [
+        3.22
+      ],
+      "dmuc": [],
       "download": []
     }
   ],
@@ -9741,6 +9806,10 @@
     {
       "id": 21,
       "ten": "Luật doanh nghiệp"
+    },
+    {
+      "id": 22,
+      "ten": "TNDN tối thiểu toàn cầu"
     }
   ]
 }
