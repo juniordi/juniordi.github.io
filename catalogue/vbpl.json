@@ -1298,7 +1298,8 @@
       "ngay_het_han": "31/12/2016",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        8.5
+        8,
+        5
       ],
       "dmuc": [],
       "download": []
@@ -1809,7 +1810,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        2.3
+        2,
+        3
       ],
       "dmuc": [],
       "download": []
@@ -1919,7 +1921,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        14.8
+        14,
+        8
       ],
       "dmuc": [],
       "download": []
@@ -2006,7 +2009,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        2.3
+        2,
+        3
       ],
       "dmuc": [],
       "download": []
@@ -2255,7 +2259,8 @@
       "ngay_het_han": "31/12/2021",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        1.15
+        1,
+        15
       ],
       "dmuc": [],
       "download": []
@@ -2489,7 +2494,8 @@
       "ngay_het_han": "04/12/2020",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        14.8
+        14,
+        8
       ],
       "dmuc": [],
       "download": []
@@ -3550,7 +3556,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        2.8
+        2,
+        8
       ],
       "dmuc": [],
       "download": []
@@ -3736,7 +3743,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        2.11
+        2,
+        11
       ],
       "dmuc": [],
       "download": []
@@ -4057,7 +4065,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Quốc hội",
       "tag": [
-        5.13
+        5,
+        13
       ],
       "dmuc": [],
       "download": [
@@ -4191,7 +4200,11 @@
       "ngay_hieu_luc": "01/07/2016",
       "ngay_het_han": "",
       "noi_ban_hanh": "Quốc hội",
-      "tag": [],
+      "tag": [
+        1,
+        10,
+        2
+      ],
       "dmuc": [],
       "download": []
     },
@@ -4333,7 +4346,11 @@
       "ngay_hieu_luc": "01/07/2016",
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
-      "tag": [],
+      "tag": [
+        2,
+        1,
+        10
+      ],
       "dmuc": [],
       "download": []
     },
@@ -4400,7 +4417,11 @@
       "ngay_hieu_luc": "01/07/2016",
       "ngay_het_han": "",
       "noi_ban_hanh": "Bộ tài chính",
-      "tag": [],
+      "tag": [
+        2,
+        10,
+        1
+      ],
       "dmuc": [],
       "download": []
     },
@@ -4869,7 +4890,8 @@
       "ngay_het_han": "04/12/2020",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        14.8
+        14,
+        8
       ],
       "dmuc": [],
       "download": []
@@ -5062,7 +5084,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        8.5
+        8,
+        5
       ],
       "dmuc": [],
       "download": []
@@ -5610,7 +5633,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        2.1
+        2,
+        1
       ],
       "dmuc": [],
       "download": []
@@ -5723,7 +5747,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        3.2
+        3,
+        2
       ],
       "dmuc": [],
       "download": []
@@ -5861,7 +5886,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        3.2
+        3,
+        2
       ],
       "dmuc": [],
       "download": []
@@ -6377,7 +6403,7 @@
         },
         {
           "id": "5f74a0cb4e556",
-          "ten": "Nghị̣định số 04/2014/NĐ-CP"
+          "ten": "Nghị định số 04/2014/NĐ-CP"
         }
       ],
       "hop_nhat_cho": [],
@@ -7040,7 +7066,8 @@
       "ngay_het_han": "31/12/2020",
       "noi_ban_hanh": "Quốc hội",
       "tag": [
-        3.12
+        3,
+        12
       ],
       "dmuc": [],
       "download": [
@@ -7267,7 +7294,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        12.1
+        12,
+        1
       ],
       "dmuc": [],
       "download": [
@@ -7302,7 +7330,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        3.12
+        3,
+        12
       ],
       "dmuc": [],
       "download": [
@@ -8337,7 +8366,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Tổng cục thuế",
       "tag": [
-        8.14
+        8,
+        14
       ],
       "dmuc": [],
       "download": [
@@ -8601,7 +8631,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        3.12
+        3,
+        12
       ],
       "dmuc": [],
       "download": [
@@ -9037,7 +9068,11 @@
       "ngay_hieu_luc": "01/08/2021",
       "ngay_het_han": "",
       "noi_ban_hanh": "Bộ tài chính",
-      "tag": [],
+      "tag": [
+        1,
+        2,
+        11
+      ],
       "dmuc": [],
       "download": [
         {
@@ -9586,7 +9621,8 @@
       "ngay_het_han": "31/12/2022",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        2.12
+        2,
+        12
       ],
       "dmuc": [],
       "download": [
@@ -9686,7 +9722,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        3.22
+        3,
+        22
       ],
       "dmuc": [],
       "download": []
@@ -9716,7 +9753,8 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Quốc hội",
       "tag": [
-        3.22
+        3,
+        22
       ],
       "dmuc": [],
       "download": []
