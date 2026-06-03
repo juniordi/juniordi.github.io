@@ -1229,7 +1229,16 @@
       "sua_doi_cho": [],
       "thay_the_cho": [],
       "hop_nhat_cho": [],
-      "huong_dan_boi": [],
+      "huong_dan_boi": [
+        {
+          "id": "5f8efb8f0361c",
+          "ten": "Nghị định 125/2020/NĐ-CP Quy định xử phạt vi phạm hành chính về thuế"
+        },
+        {
+          "id": "hóa đơn",
+          "ten": ""
+        }
+      ],
       "bi_sua_boi": [],
       "bi_thay_boi": [],
       "hop_nhat_boi": [],
@@ -1921,8 +1930,7 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        14,
-        8
+        14
       ],
       "dmuc": [],
       "download": []
@@ -2494,8 +2502,7 @@
       "ngay_het_han": "04/12/2020",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        14,
-        8
+        14
       ],
       "dmuc": [],
       "download": []
@@ -4890,8 +4897,7 @@
       "ngay_het_han": "04/12/2020",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        14,
-        8
+        14
       ],
       "dmuc": [],
       "download": []
@@ -8076,7 +8082,12 @@
           "ten": "Thông tư số 78/2021/TT-BTC"
         }
       ],
-      "bi_sua_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "70_2025_ND_CP",
+          "ten": "Nghị định 70/2025/NĐ-CP"
+        }
+      ],
       "bi_thay_boi": [],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "19/10/2020",
@@ -8101,7 +8112,12 @@
       "mo_ta": "Nghị định 125/2020/NĐ-CP Quy định xử phạt vi phạm hành chính về thuế, hóa đơn",
       "file_type": "doc",
       "url": "nghi-dinh-125-2020",
-      "huong_dan_cho": [],
+      "huong_dan_cho": [
+        {
+          "id": "5f7dd726dd94d",
+          "ten": "Luật số 15/2012/QH13 xử lý vi phạm hành chính"
+        }
+      ],
       "sua_doi_cho": [
         {
           "id": "5f75ffe47c4dd",
@@ -8149,7 +8165,6 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        8,
         14,
         18
       ],
@@ -8370,7 +8385,6 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Tổng cục thuế",
       "tag": [
-        8,
         14
       ],
       "dmuc": [],
@@ -9073,9 +9087,9 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        1,
         2,
-        11
+        11,
+        24
       ],
       "dmuc": [],
       "download": [
@@ -9370,7 +9384,9 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
-        1
+        2,
+        11,
+        24
       ],
       "dmuc": [],
       "download": [
@@ -9788,9 +9804,38 @@
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        8,
         14,
         18
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "70_2025_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "70/2025/NĐ-CP",
+      "mo_ta": "Nghị định 70/2025/NĐ-CP ngày 20/03/2025 sửa đổi Nghị định 123/2020/NĐ-CP quy định về hóa đơn, chứng từ",
+      "file_type": "doc",
+      "url": "70_2025_ND_CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "5f8ef8382dcf7",
+          "ten": "Nghị định 123/2020/NĐ-CP"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "20/03/2025",
+      "ngay_hieu_luc": "01/06/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        8
       ],
       "dmuc": [],
       "download": []
@@ -9884,6 +9929,14 @@
     {
       "id": 22,
       "ten": "TNDN tối thiểu toàn cầu"
+    },
+    {
+      "id": 23,
+      "ten": "Giao dịch liên kết"
+    },
+    {
+      "id": 24,
+      "ten": "Hộ cá nhân, cá nhân kinh doanh"
     }
   ]
 }
