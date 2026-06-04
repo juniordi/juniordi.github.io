@@ -9839,6 +9839,68 @@
       "download": []
     },
     {
+      "id": "Dat_31_2024_QH15",
+      "loai_van_ban": "Luật",
+      "tieu_de": "31/2024/QH15",
+      "mo_ta": "Luật Đất đai 2024 số 31/2024/QH15",
+      "file_type": "doc",
+      "url": "Dat_31_2024_QH15",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "TNCN_109_2025_QH15",
+          "ten": "Luật Thuế TNCN số 109/2025/QH15"
+        }
+      ],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "18/01/2024",
+      "ngay_hieu_luc": "01/01/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Quốc hội",
+      "tag": [
+        9
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "QLT_56_2024_QH15",
+      "loai_van_ban": "Luật",
+      "tieu_de": "56/2024/QH15",
+      "mo_ta": "Luật số 56/2024/QH15 năm 2024 sửa đổi Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách Nhà nước",
+      "file_type": "doc",
+      "url": "QLT_56_2024_QH15",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "TNCN_109_2025_QH15",
+          "ten": "Luật Thuế TNCN số 109/2025/QH15"
+        }
+      ],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "29/11/2024",
+      "ngay_hieu_luc": "01/01/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Quốc hội",
+      "tag": [
+        1,
+        11,
+        18
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
       "id": "ND_236_2025_ND_CP",
       "loai_van_ban": "Nghị định",
       "tieu_de": "236/2025/NĐ-CP",
@@ -10059,6 +10121,14 @@
         {
           "id": "5f6db0cfb0a85",
           "ten": "Luật số 71/2014/QH13"
+        },
+        {
+          "id": "QLT_56_2024_QH15",
+          "ten": "Luật số 56/2024/QH15"
+        },
+        {
+          "id": "Dat_31_2024_QH15",
+          "ten": "Luật Đất đai 2024 số 31/2024/QH15"
         }
       ],
       "hop_nhat_cho": [],
