@@ -361,11 +361,16 @@
           "ten": "Luật số 106/2016/QH13"
         }
       ],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "GTGT_48_2024_QH15",
+          "ten": "Luật thuế giá trị gia tăng số 48/2024/QH15"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "03/06/2008",
       "ngay_hieu_luc": "01/01/2009",
-      "ngay_het_han": "",
+      "ngay_het_han": "30/06/2025",
       "noi_ban_hanh": "Quốc hội",
       "tag": [
         2
@@ -1600,7 +1605,12 @@
           "ten": "Luật số 106/2016/QH13"
         }
       ],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "GTGT_48_2024_QH15",
+          "ten": "Luật thuế giá trị gia tăng số 48/2024/QH15"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "19/06/2013",
       "ngay_hieu_luc": "01/01/2014",
@@ -3315,6 +3325,10 @@
         {
           "id": "5f6b0c0f48028",
           "ten": "Luật số 38/2019/QH14"
+        },
+        {
+          "id": "GTGT_48_2024_QH15",
+          "ten": "Luật thuế giá trị gia tăng số 48/2024/QH15"
         }
       ],
       "hop_nhat_boi": [
@@ -4200,12 +4214,16 @@
         {
           "id": "5f6b0c0f48028",
           "ten": "Luật số 38/2019/QH14"
+        },
+        {
+          "id": "GTGT_48_2024_QH15",
+          "ten": "Luật thuế giá trị gia tăng số 48/2024/QH15"
         }
       ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "06/04/2016",
       "ngay_hieu_luc": "01/07/2016",
-      "ngay_het_han": "",
+      "ngay_het_han": "30/06/2025",
       "noi_ban_hanh": "Quốc hội",
       "tag": [
         1,
@@ -9836,6 +9854,117 @@
       "noi_ban_hanh": "Chính phủ",
       "tag": [
         8
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "GTGT_48_2024_QH15",
+      "loai_van_ban": "Luật",
+      "tieu_de": "48/2024/QH15",
+      "mo_ta": "Luật thuế giá trị gia tăng số 48/2024/QH15 năm 2024",
+      "file_type": "doc",
+      "url": "GTGT_48_2024_QH15",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "5f79574d30b9e",
+          "ten": "Luật Thuế thu nhập cá nhân 04/2007/QH12"
+        },
+        {
+          "id": "5f7958b6b3d5f",
+          "ten": "Luật 26/2012/QH13"
+        },
+        {
+          "id": "5f6db0cfb0a85",
+          "ten": "Luật số 71/2014/QH13"
+        }
+      ],
+      "thay_the_cho": [
+        {
+          "id": "5f6ccda20e505",
+          "ten": "Luật số 13/2008/QH12"
+        },
+        {
+          "id": "5f6b0f8a9c097",
+          "ten": "Luật số 31/2013/QH13"
+        },
+        {
+          "id": "5f6db0cfb0a85",
+          "ten": "Luật số 71/2014/QH13"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "26/11/2024",
+      "ngay_hieu_luc": "01/07/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Quốc hội",
+      "tag": [
+        2
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "GDLK_132_2020_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "132/2020/NĐ-CP",
+      "mo_ta": "Nghị định 132/2020/NĐ-CP quy định quản lý thuế đối với doanh nghiệp có giao dịch liên kết",
+      "file_type": "doc",
+      "url": "GDLK_132_2020_ND_CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "GDLK_20_2025_ND_CP",
+          "ten": "Nghị định 20/2025/NĐ-CP"
+        }
+      ],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "05/11/2020",
+      "ngay_hieu_luc": "20/12/2020",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        23
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "GDLK_20_2025_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "20/2025/NĐ-CP",
+      "mo_ta": "Nghị định 20/2025/NĐ-CP ngày 10/02/2025 sửa đổi Nghị định 132/2020/NĐ-СР quy định về quản lý thuế đối với doanh nghiệp có giao dịch liên kết",
+      "file_type": "doc",
+      "url": "GDLK_20_2025_ND_CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "GDLK_132_2020_ND_CP",
+          "ten": "Nghị định 132/2020/NĐ-CP"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "10/02/2025",
+      "ngay_hieu_luc": "27/03/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        23
       ],
       "dmuc": [],
       "download": []
