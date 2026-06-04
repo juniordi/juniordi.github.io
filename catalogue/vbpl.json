@@ -932,6 +932,10 @@
         {
           "id": "5f7418ddc2b3b",
           "ten": "Thông tư số 68/2019/TT-BTC"
+        },
+        {
+          "id": "61bc05a918f9a",
+          "ten": "Thông tư 78/2021/TT-BTC"
         }
       ],
       "hop_nhat_boi": [],
@@ -2597,6 +2601,10 @@
         {
           "id": "5f7418ddc2b3b",
           "ten": "Thông tư số 68/2019/TT-BTC"
+        },
+        {
+          "id": "61bc05a918f9a",
+          "ten": "Thông tư 78/2021/TT-BTC"
         }
       ],
       "hop_nhat_boi": [
@@ -2991,6 +2999,10 @@
         {
           "id": "61e125273b4ef",
           "ten": "Thông tư số 80/2021/TT-BTC"
+        },
+        {
+          "id": "61bc05a918f9a",
+          "ten": "Thông tư 78/2021/TT-BTC"
         }
       ],
       "bi_thay_boi": [],
@@ -3556,6 +3568,10 @@
         {
           "id": "5f7418ddc2b3b",
           "ten": "Thông tư số 68/2019/TT-BTC"
+        },
+        {
+          "id": "61bc05a918f9a",
+          "ten": "Thông tư 78/2021/TT-BTC"
         }
       ],
       "hop_nhat_boi": [
@@ -5101,7 +5117,12 @@
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
       "bi_sua_boi": [],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "61bc05a918f9a",
+          "ten": "Thông tư 78/2021/TT-BTC"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "15/11/2016",
       "ngay_hieu_luc": "01/01/2017",
@@ -5422,6 +5443,10 @@
         {
           "id": "5f7418ddc2b3b",
           "ten": "Thông tư số 68/2019/TT-BTC"
+        },
+        {
+          "id": "61bc05a918f9a",
+          "ten": "Thông tư 78/2021/TT-BTC"
         }
       ],
       "hop_nhat_boi": [],
@@ -6508,7 +6533,12 @@
           "ten": "Thông tư số 88/2020/TT-BTC"
         }
       ],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "61bc05a918f9a",
+          "ten": "Thông tư 78/2021/TT-BTC"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "30/09/2019",
       "ngay_hieu_luc": "14/11/2019",
@@ -8322,11 +8352,16 @@
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
       "bi_sua_boi": [],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "61bc05a918f9a",
+          "ten": "Thông tư 78/2021/TT-BTC"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "30/10/2020",
       "ngay_hieu_luc": "01/11/2020",
-      "ngay_het_han": "",
+      "ngay_het_han": "30/06/2022",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
         8
@@ -9170,7 +9205,44 @@
         }
       ],
       "sua_doi_cho": [],
-      "thay_the_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "5f744c3694b7f",
+          "ten": "Thông tư số 191/2010/TT-BTC"
+        },
+        {
+          "id": "5f7402e9daf00",
+          "ten": "Thông tư số 32/2011/TT-BTC"
+        },
+        {
+          "id": "5f7409fe2b4d1",
+          "ten": "Thông tư số 39/2014/TT-BTC"
+        },
+        {
+          "id": "5f6d700e39046",
+          "ten": "Thông tư số 119/2014/TT-BTC"
+        },
+        {
+          "id": "5f6d3dd40b508",
+          "ten": "Thông tư số 26/2015/TT-BTC"
+        },
+        {
+          "id": "5f7541dddff4c",
+          "ten": "Thông tư số 303/2016/TT-BTC"
+        },
+        {
+          "id": "5f740b5141270",
+          "ten": "Thông tư số 37/2017/TT-BTC"
+        },
+        {
+          "id": "5f7418ddc2b3b",
+          "ten": "Thông tư số 68/2019/TT-BTC"
+        },
+        {
+          "id": "5fbb2a09d38f9",
+          "ten": "Thông tư 88/2020/TT-BT"
+        }
+      ],
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
       "bi_sua_boi": [],
@@ -9866,20 +9938,7 @@
       "file_type": "doc",
       "url": "GTGT_48_2024_QH15",
       "huong_dan_cho": [],
-      "sua_doi_cho": [
-        {
-          "id": "5f79574d30b9e",
-          "ten": "Luật Thuế thu nhập cá nhân 04/2007/QH12"
-        },
-        {
-          "id": "5f7958b6b3d5f",
-          "ten": "Luật 26/2012/QH13"
-        },
-        {
-          "id": "5f6db0cfb0a85",
-          "ten": "Luật số 71/2014/QH13"
-        }
-      ],
+      "sua_doi_cho": [],
       "thay_the_cho": [
         {
           "id": "5f6ccda20e505",
@@ -9896,7 +9955,12 @@
       ],
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
-      "bi_sua_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "TNCN_109_2025_QH15",
+          "ten": "Thuế thu nhập cá nhân 2025 số 109/2025/QH15"
+        }
+      ],
       "bi_thay_boi": [],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "26/11/2024",
@@ -9965,6 +10029,49 @@
       "noi_ban_hanh": "Chính phủ",
       "tag": [
         23
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TNCN_109_2025_QH15",
+      "loai_van_ban": "Luật",
+      "tieu_de": "109/2025/QH15",
+      "mo_ta": "Thuế thu nhập cá nhân 2025 số 109/2025/QH15",
+      "file_type": "doc",
+      "url": "TNCN_109_2025_QH15",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "GTGT_48_2024_QH15",
+          "ten": "Luật thuế giá trị gia tăng số 48/2024/QH15"
+        }
+      ],
+      "thay_the_cho": [
+        {
+          "id": "5f79574d30b9e",
+          "ten": "Luật Thuế thu nhập cá nhân 04/2007/QH12"
+        },
+        {
+          "id": "5f7958b6b3d5f",
+          "ten": "Luật 26/2012/QH13"
+        },
+        {
+          "id": "5f6db0cfb0a85",
+          "ten": "Luật số 71/2014/QH13"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "10/12/2025",
+      "ngay_hieu_luc": "01/07/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Quốc hội",
+      "tag": [
+        11
       ],
       "dmuc": [],
       "download": []
