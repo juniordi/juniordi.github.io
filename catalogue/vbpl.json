@@ -406,7 +406,12 @@
           "ten": "Luật số 32/2013/QH13"
         }
       ],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "TNDN_67_2025_QH15",
+          "ten": "Luật số 67/2025/QH15"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "03/06/2008",
       "ngay_hieu_luc": "01/01/2009",
@@ -1649,7 +1654,12 @@
         }
       ],
       "bi_sua_boi": [],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "TNDN_67_2025_QH15",
+          "ten": "Luật số 67/2025/QH15"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "19/06/2013",
       "ngay_hieu_luc": "01/01/2014",
@@ -3341,6 +3351,10 @@
         {
           "id": "GTGT_48_2024_QH15",
           "ten": "Luật thuế giá trị gia tăng số 48/2024/QH15"
+        },
+        {
+          "id": "TNDN_67_2025_QH15",
+          "ten": "Luật số 67/2025/QH15"
         }
       ],
       "hop_nhat_boi": [
@@ -9773,41 +9787,6 @@
       ]
     },
     {
-      "id": "Luat_108_2025_QH15",
-      "loai_van_ban": "Luật",
-      "tieu_de": "108/2025/QH15",
-      "mo_ta": "Luật Quản lý thuế số 108/2025/QH15",
-      "file_type": "doc",
-      "url": "Luat_108_2025_QH15",
-      "huong_dan_cho": [],
-      "sua_doi_cho": [],
-      "thay_the_cho": [
-        {
-          "id": "5f6b0c0f48028",
-          "ten": "Luật số 38/2019/QH14"
-        }
-      ],
-      "hop_nhat_cho": [],
-      "huong_dan_boi": [],
-      "bi_sua_boi": [],
-      "bi_thay_boi": [],
-      "hop_nhat_boi": [],
-      "ngay_ban_hanh": "10/12/2025",
-      "ngay_hieu_luc": "01/07/2026",
-      "ngay_het_han": "",
-      "noi_ban_hanh": "Quốc hội",
-      "tag": [
-        1
-      ],
-      "dmuc": [],
-      "download": [
-        {
-          "desc": "Toàn văn",
-          "path": "Luat_108_2025_QH15.docx"
-        }
-      ]
-    },
-    {
       "id": "NQ_107_2023_qh15",
       "loai_van_ban": "Nghị quyết",
       "tieu_de": "107/2023/QH15",
@@ -10016,7 +9995,12 @@
         }
       ],
       "hop_nhat_cho": [],
-      "huong_dan_boi": [],
+      "huong_dan_boi": [
+        {
+          "id": "GTGT_181_2025_ND_CP",
+          "ten": "Nghị định 181/2025/NĐ-CP"
+        }
+      ],
       "bi_sua_boi": [
         {
           "id": "TNCN_109_2025_QH15",
@@ -10142,6 +10126,223 @@
       "noi_ban_hanh": "Quốc hội",
       "tag": [
         11
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "Luat_108_2025_QH15",
+      "loai_van_ban": "Luật",
+      "tieu_de": "108/2025/QH15",
+      "mo_ta": "Luật Quản lý thuế số 108/2025/QH15",
+      "file_type": "doc",
+      "url": "Luat_108_2025_QH15",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "5f6b0c0f48028",
+          "ten": "Luật số 38/2019/QH14"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "10/12/2025",
+      "ngay_hieu_luc": "01/07/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Quốc hội",
+      "tag": [
+        1
+      ],
+      "dmuc": [],
+      "download": [
+        {
+          "desc": "Toàn văn",
+          "path": "Luat_108_2025_QH15.docx"
+        }
+      ]
+    },
+    {
+      "id": "TNDN_67_2025_QH15",
+      "loai_van_ban": "Luật",
+      "tieu_de": "67/2025/QH15",
+      "mo_ta": "Luật thuế thu nhập doanh nghiệp năm 2025 số 67/2025/QH15",
+      "file_type": "doc",
+      "url": "TNDN_67_2025_QH15",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "5f75fae7942ae",
+          "ten": "Luật sô 14/2008/QH12"
+        },
+        {
+          "id": "5f75fccebb209",
+          "ten": "Luật số 32/2013/QH13"
+        },
+        {
+          "id": "5f6db0cfb0a85",
+          "ten": "Luật số 71/2014/QH13"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "14/06/2025",
+      "ngay_hieu_luc": "01/10/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Quốc hội",
+      "tag": [
+        3
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "GTGT_181_2025_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "181/2025/NĐ-CP",
+      "mo_ta": "Nghị định 181/2025/NĐ-CP ngày 01/07/2025 hướng dẫn Luật Thuế giá trị gia tăng",
+      "file_type": "doc",
+      "url": "GTGT_181_2025_ND_CP",
+      "huong_dan_cho": [
+        {
+          "id": "GTGT_48_2024_QH15",
+          "ten": "Luật thuế giá trị gia tăng số 48/2024/QH15"
+        }
+      ],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [
+        {
+          "id": "TT_GTGT_69_2025_TT_BTC",
+          "ten": "Thông tư 69/2025/TT-BTC"
+        }
+      ],
+      "bi_sua_boi": [
+        {
+          "id": "GTGT_359_2025_ND_CP",
+          "ten": "Nghị định 359/2025/NĐ-CP"
+        }
+      ],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "01/07/2025",
+      "ngay_hieu_luc": "01/01/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        2
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TT_GTGT_69_2025_TT_BTC",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "69/2025/TT-BTC",
+      "mo_ta": "Thông tư 69/2025/TT-BTC ngày 01/07/2025 hướng dẫn Luật Thuế giá trị gia tăng và hướng dẫn thực hiện Nghị định 181/2025/NĐ-CP hướng dẫn Luật Thuế giá trị gia tăng",
+      "file_type": "doc",
+      "url": "TT_GTGT_69_2025_TT_BTC",
+      "huong_dan_cho": [
+        {
+          "id": "GTGT_181_2025_ND_CP",
+          "ten": "Nghị định 181/2025/NĐ-CP"
+        },
+        {
+          "id": "GTGT_359_2025_ND_CP",
+          "ten": "Nghị định 359/2025/NĐ-CP"
+        }
+      ],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "01/07/2025",
+      "ngay_hieu_luc": "01/07/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ Tài chính",
+      "tag": [
+        2
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TNDN_320_2025_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "320/2025/NĐ-CP",
+      "mo_ta": "Nghị định 320/2025/NĐ-CP hướng dẫn Luật Thuế thu nhập doanh nghiệp",
+      "file_type": "doc",
+      "url": "TNDN_320_2025_ND_CP",
+      "huong_dan_cho": [
+        {
+          "id": "TNDN_67_2025_QH15",
+          "ten": "Luật thuế thu nhập doanh nghiệp số 67/2025/QH15"
+        }
+      ],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "15/12/2025",
+      "ngay_hieu_luc": "15/12/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        3
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "GTGT_359_2025_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "359/2025/NĐ-CP",
+      "mo_ta": "Nghị định 359/2025/NĐ-CP ngày 31/12/2025 sửa đổi Nghị định 181/2025/NĐ-CP hướng dẫn Luật Thuế giá trị gia tăng",
+      "file_type": "doc",
+      "url": "GTGT_359_2025_ND_CP",
+      "huong_dan_cho": [
+        {
+          "id": "GTGT_48_2024_QH15",
+          "ten": "Luật thuế giá trị gia tăng số 48/2024/QH15"
+        }
+      ],
+      "sua_doi_cho": [
+        {
+          "id": "GTGT_181_2025_ND_CP",
+          "ten": "Nghị định 181/2025/NĐ-CP"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [
+        {
+          "id": "TT_GTGT_69_2025_TT_BTC",
+          "ten": "Thông tư 69/2025/TT-BTC"
+        }
+      ],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "31/12/2025",
+      "ngay_hieu_luc": "01/01/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        2
       ],
       "dmuc": [],
       "download": []
