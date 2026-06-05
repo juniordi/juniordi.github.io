@@ -5180,10 +5180,70 @@
       "download": []
     },
     {
+      "id": "164_2016_ND-CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "164/2016/NĐ-CP",
+      "mo_ta": "Nghị định 164/2016/NĐ-CP ngày 24/12/2016 về phí bảo vệ môi trường đối với khai thác khoáng sản",
+      "file_type": "doc",
+      "url": "164_2016_ND-CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "27_2023_ND-CP",
+          "ten": "Nghị định 27/2023/NĐ-CP"
+        }
+      ],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "26/12/2016",
+      "ngay_hieu_luc": "10/02/2017",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        25
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "27_2023_ND-CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "27/2023/NĐ-CP",
+      "mo_ta": "Nghị định 27/2023/NĐ-CP phí bảo vệ môi trường đối với khai thác khoáng sản",
+      "file_type": "doc",
+      "url": "27_2023_ND-CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "164_2016_ND-CP",
+          "ten": "Nghị định 164/2016/NĐ-CP"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "31/05/2023",
+      "ngay_hieu_luc": "15/07/2023",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        25
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
       "id": "5f73e6cb37434",
       "loai_van_ban": "Thông tư",
       "tieu_de": "332/2016/TT-BTC",
-      "mo_ta": "",
+      "mo_ta": "Thông tư 332/2016/TT-BTC sửa đổi 76/2014/TT-BTC hướng dẫn 45/2014/NĐ-CP thu tiền sử dụng đất",
       "file_type": "ard",
       "url": "332_2016_TT-BTC",
       "huong_dan_cho": [],
@@ -6498,6 +6558,44 @@
           "path": "119.2018.ND-CP.doc"
         }
       ]
+    },
+    {
+      "id": "48_2019_TT-BTC",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "48/2019/TT-BTC",
+      "mo_ta": "Thông tư 48/2019/TT-BTC ngày 08/08/2019 hướng dẫn việc trích lập và xử lý các khoản dự phòng giảm giá hàng tồn kho ...",
+      "file_type": "doc",
+      "url": "48_2019_TT-BTC",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "",
+          "ten": "Thông tư số 228/2009/TT-BTC"
+        },
+        {
+          "id": "",
+          "ten": "Thông tư số 34/2011/TT-BTC"
+        },
+        {
+          "id": "",
+          "ten": "Thông tư số 89/2013/TT-BTC"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "08/08/2019",
+      "ngay_hieu_luc": "10/10/2019",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ tài chính",
+      "tag": [
+        3
+      ],
+      "dmuc": [],
+      "download": []
     },
     {
       "id": "5f7418ddc2b3b",
@@ -8596,7 +8694,12 @@
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
       "bi_sua_boi": [],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "86_2024_TT-BTC",
+          "ten": "Thông tư 86/2024/TT-BTC"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "03/12/2020",
       "ngay_hieu_luc": "17/01/2021",
@@ -9787,6 +9890,32 @@
       ]
     },
     {
+      "id": "44_2023_ND-CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "44/2023/NĐ-CP",
+      "mo_ta": "Nghị định 44/2023/NĐ-CP chính sách giảm thuế giá trị gia tăng theo Nghị quyết 101/2023/QH15",
+      "file_type": "doc",
+      "url": "44_2023_ND-CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "30/06/2023",
+      "ngay_hieu_luc": "01/07/2023",
+      "ngay_het_han": "31/12/2023",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        2,
+        12
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
       "id": "NQ_107_2023_qh15",
       "loai_van_ban": "Nghị quyết",
       "tieu_de": "107/2023/QH15",
@@ -9813,6 +9942,58 @@
       "tag": [
         3,
         22
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "94_2023_ND-CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "94/2023/NĐ-CP",
+      "mo_ta": "Nghị định 94/2023/NĐ-CP quy định về chính sách giảm thuế giá trị gia tăng theo Nghị quyết 110/2023/QH15",
+      "file_type": "doc",
+      "url": "94_2023_ND-CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "28/12/2023",
+      "ngay_hieu_luc": "01/01/2024",
+      "ngay_het_han": "30/06/2024",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        2,
+        12
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "72_2024_ND-CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "72/2024/NĐ-CP",
+      "mo_ta": "Nghị định 72/2024/NĐ-CP ngày 30/06/2024 về chính sách giảm thuế giá trị gia tăng theo Nghị quyết 142/2024/QH15",
+      "file_type": "doc",
+      "url": "72_2024_ND-CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "30/06/2024",
+      "ngay_hieu_luc": "01/07/2024",
+      "ngay_het_han": "31/12/2024",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        2,
+        12
       ],
       "dmuc": [],
       "download": []
@@ -10020,6 +10201,62 @@
       "download": []
     },
     {
+      "id": "86_2024_TT-BTC",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "86/2024/TT-BTC",
+      "mo_ta": "Thông tư 86/2024/TT-BTC hướng dẫn về đăng ký thuế",
+      "file_type": "doc",
+      "url": "86_2024_TT-BTC",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "5fffa426dae00",
+          "ten": "Thông tư số 105/2020/TT-BTC"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "23/12/2024",
+      "ngay_hieu_luc": "06/02/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ Tài chính",
+      "tag": [
+        15
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "180_2024_ND-CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "180/2024/NĐ-CP",
+      "mo_ta": "Nghị định 180/2024/NĐ-CP ngày 31/12/2024 quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết 174/2024/QH15",
+      "file_type": "doc",
+      "url": "180_2024_ND-CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "31/12/2024",
+      "ngay_hieu_luc": "01/01/2025",
+      "ngay_het_han": "30/06/2025",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        2,
+        12
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
       "id": "GDLK_132_2020_ND_CP",
       "loai_van_ban": "Nghị định",
       "tieu_de": "132/2020/NĐ-CP",
@@ -10075,6 +10312,32 @@
       "noi_ban_hanh": "Chính phủ",
       "tag": [
         23
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "174_2025_ND-CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "174/2025/NĐ-CP",
+      "mo_ta": "Nghị định 174/2025/NĐ-CP chính sách giảm thuế giá trị gia tăng theo Nghị quyết 204/2025/QH15",
+      "file_type": "doc",
+      "url": "174_2025_ND-CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "30/06/2025",
+      "ngay_hieu_luc": "01/07/2025",
+      "ngay_het_han": "31/12/2026",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        2,
+        12
       ],
       "dmuc": [],
       "download": []
@@ -10444,6 +10707,10 @@
     {
       "id": 24,
       "ten": "Hộ cá nhân, cá nhân kinh doanh"
+    },
+    {
+      "id": 25,
+      "ten": "Phí Bảo vệ môi trường"
     }
   ]
 }
