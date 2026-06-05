@@ -5201,7 +5201,7 @@
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "26/12/2016",
       "ngay_hieu_luc": "10/02/2017",
-      "ngay_het_han": "",
+      "ngay_het_han": "14/07/2023",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
         25
@@ -10317,6 +10317,32 @@
       "download": []
     },
     {
+      "id": "49_2025_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "49/2025/NĐ-CP",
+      "mo_ta": "Nghị định 49/2025/NĐ-CP ngày 28/02/2025 quy định về ngưỡng áp dụng tạm hoãn xuất cảnh",
+      "file_type": "doc",
+      "url": "49_2025_ND_CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "28/02/2025",
+      "ngay_hieu_luc": "28/02/2025",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        1,
+        26
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
       "id": "174_2025_ND-CP",
       "loai_van_ban": "Nghị định",
       "tieu_de": "174/2025/NĐ-CP",
@@ -10711,6 +10737,10 @@
     {
       "id": 25,
       "ten": "Phí Bảo vệ môi trường"
+    },
+    {
+      "id": 26,
+      "ten": "Hoãn xuất cảnh"
     }
   ]
 }
