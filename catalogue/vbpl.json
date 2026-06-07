@@ -3967,6 +3967,10 @@
         {
           "id": "5f715842a0dd7",
           "ten": "Thông tư số 174/2016/TT-BTC"
+        },
+        {
+          "id": "TAIN_41_2024_TT_BTC",
+          "ten": "Thông tư 41/2024/TT-BTC"
         }
       ],
       "bi_thay_boi": [],
@@ -5599,6 +5603,10 @@
         {
           "id": "5f71540a6751c",
           "ten": "Thông tư số 05/2020/TT-BTC"
+        },
+        {
+          "id": "TAIN_41_2024_TT_BTC",
+          "ten": "Thông tư 41/2024/TT-BTC"
         }
       ],
       "bi_thay_boi": [],
@@ -9134,12 +9142,22 @@
       "thay_the_cho": [],
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
-      "bi_sua_boi": [],
-      "bi_thay_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "TAIN_02_2023_ND_CP",
+          "ten": "Nghị định 02/2023/NĐ-CP"
+        }
+      ],
+      "bi_thay_boi": [
+        {
+          "id": "TAIN_54_2024_ND_CP",
+          "ten": "Nghị định 54/2024/NĐ-CP"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "30/03/2021",
       "ngay_hieu_luc": "15/05/2021",
-      "ngay_het_han": "",
+      "ngay_het_han": "30/06/2024",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
         4
@@ -10632,6 +10650,126 @@
       "noi_ban_hanh": "Chính phủ",
       "tag": [
         2
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TAIN_02_2023_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "02/2023/NĐ-CP",
+      "mo_ta": "Nghị định 02/2023/NĐ-CP ngày 01/02/2023 hướng dẫn Luật Tài nguyên nước",
+      "file_type": "doc",
+      "url": "TAIN_02_2023_ND_CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "6093b00ad0631",
+          "ten": "Nghị định 41/2021/NĐ-CP"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "TAIN_54_2024_ND_CP",
+          "ten": "Nghị định 54/2024/NĐ-CP"
+        }
+      ],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "01/02/2023",
+      "ngay_hieu_luc": "20/03/2023",
+      "ngay_het_han": "30/06/2024",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        4
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TAIN_54_2024_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "54/2024/NĐ-CP",
+      "mo_ta": "Nghị định 54/2024/NĐ-CP quy định về hành nghề khoan nước dưới đất, kê khai, đăng ký, cấp phép, dịch vụ tài nguyên nước",
+      "file_type": "doc",
+      "url": "TAIN_54_2024_ND_CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "",
+          "ten": "Nghị định số 60/2016/NĐ-CP"
+        },
+        {
+          "id": "",
+          "ten": "Nghị định số 136/2018/NĐ-CP"
+        },
+        {
+          "id": "",
+          "ten": "Nghị định số 22/2023/NĐ-CP"
+        }
+      ],
+      "thay_the_cho": [
+        {
+          "id": "6093b00ad0631",
+          "ten": "Nghị định 41/2021/NĐ-CP"
+        },
+        {
+          "id": "TAIN_02_2023_ND_CP",
+          "ten": "Nghị định 02/2023/NĐ-CP"
+        },
+        {
+          "id": "",
+          "ten": "Nghị định số 82/2017/NĐ-CP"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "16/05/2024",
+      "ngay_hieu_luc": "01/07/2024",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        4
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TAIN_41_2024_TT_BTC",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "41/2024/TT-BTC",
+      "mo_ta": "Thông tư 41/2024/TT-BTC sửa đổi Thông tư 44/2017/TT-BTC quy định khung giá tính thuế tài nguyên đối với nhóm, loại tài nguyên có tính chất lý, hóa giống nhau và Thông tư 152/2015/TT-BTC hướng dẫn về thuế tài nguyên do Bộ trưởng Bộ Tài chính ban hành",
+      "file_type": "doc",
+      "url": "TAIN_41_2024_TT_BTC",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "5f6efdd3a8f60",
+          "ten": "Thông tư số 44/2017/TT-BTC"
+        },
+        {
+          "id": "5f715281386f0",
+          "ten": "Thông tư số 152/2015/TT-BTC"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "20/05/2024",
+      "ngay_hieu_luc": "15/07/2024",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ Tài chính",
+      "tag": [
+        4
       ],
       "dmuc": [],
       "download": []
