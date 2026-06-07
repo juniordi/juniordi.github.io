@@ -10773,6 +10773,61 @@
       ],
       "dmuc": [],
       "download": []
+    },
+    {
+      "id": "KTOAN_99_2025_TT_BTC",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "99/2025/TT-BTC",
+      "mo_ta": "Thông tư 99/2025/TT-BTC hướng dẫn chế độ kế toán doanh nghiệp",
+      "file_type": "doc",
+      "url": "KTOAN_99_2025_TT_BTC",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "27/10/2025",
+      "ngay_hieu_luc": "01/01/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ Tài chính",
+      "tag": [
+        19
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "KTOAN_58_2026_TT_BTC",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "58/2026/TT-BTC",
+      "mo_ta": "Thông tư 58/2026/TT-BTC ngày 25/05/2026 hướng dẫn Chế độ kế toán cho doanh nghiệp siêu nhỏ",
+      "file_type": "doc",
+      "url": "KTOAN_58_2026_TT_BTC",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "",
+          "ten": "Thông tư số 132/2018/TT-BTC"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "25/05/2026",
+      "ngay_hieu_luc": "01/07/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ Tài chính",
+      "tag": [
+        19
+      ],
+      "dmuc": [],
+      "download": []
     }
   ],
   "dmuc": [
