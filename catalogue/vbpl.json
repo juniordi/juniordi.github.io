@@ -10600,8 +10600,18 @@
       "sua_doi_cho": [],
       "thay_the_cho": [],
       "hop_nhat_cho": [],
-      "huong_dan_boi": [],
-      "bi_sua_boi": [],
+      "huong_dan_boi": [
+        {
+          "id": "TNDN_20_2026_TT_BTC",
+          "ten": "Thông tư 20/2026/TT-BTC"
+        }
+      ],
+      "bi_sua_boi": [
+        {
+          "id": "ND_141_2026_ND_CP",
+          "ten": "Nghị định 141/2026/NĐ-CP"
+        }
+      ],
       "bi_thay_boi": [],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "15/12/2025",
@@ -10795,6 +10805,104 @@
       "noi_ban_hanh": "Bộ Tài chính",
       "tag": [
         19
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "ND_68_2026_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "68/2026/NĐ-CP",
+      "mo_ta": "Nghị định 68/2026/NĐ-CP ngày 05/03/2026 quy định về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "file_type": "doc",
+      "url": "ND_68_2026_ND_CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "ND_141_2026_ND_CP",
+          "ten": "Nghị định 141/2026/NĐ-CP"
+        }
+      ],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "05/03/2026",
+      "ngay_hieu_luc": "05/03/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        24,
+        2,
+        11
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TNDN_20_2026_TT_BTC",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "20/2026/TT-BTC",
+      "mo_ta": "Thông tư 20/2026/TT-BTC ngày 12/03/2026 hướng dẫn Luật Thuế thu nhập doanh nghiệp và Nghị định 320/2025/NĐ-CP hướng dẫn Luật Thuế thu nhập doanh nghiệp",
+      "file_type": "doc",
+      "url": "TNDN_20_2026_TT_BTC",
+      "huong_dan_cho": [
+        {
+          "id": "TNDN_320_2025_ND_CP",
+          "ten": "Nghị định 320/2025/NĐ-CP"
+        }
+      ],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "12/03/2026",
+      "ngay_hieu_luc": "12/03/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ Tài chính",
+      "tag": [
+        3
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "ND_141_2026_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "141/2026/NĐ-CP",
+      "mo_ta": "Nghị định 141/2026/NĐ-CP ngày 29/04/2026 sửa đổi Nghị định 68/2026/NĐ-CP quy định về chính sách thuế đối với hộ kinh doanh, cá nhân kinh doanh và Nghị định 320/2025/NĐ-CP hướng dẫn Luật Thuế thu nhập doanh nghiệp",
+      "file_type": "doc",
+      "url": "ND_141_2026_ND_CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "ND_68_2026_ND_CP",
+          "ten": "Nghị định 68/2026/NĐ-CP"
+        },
+        {
+          "id": "TNDN_320_2025_ND_CP",
+          "ten": "Nghị định số 320/2025/NĐ-CP"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "29/04/2026",
+      "ngay_hieu_luc": "01/01/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        24,
+        2,
+        11
       ],
       "dmuc": [],
       "download": []
