@@ -445,7 +445,12 @@
           "ten": "Luật số 106/2016/QH13"
         }
       ],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "TTDB_66_2025_QH15",
+          "ten": "Luật thuế tiêu thụ đặc biệt số 66/2025/QH15"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "14/11/2008",
       "ngay_hieu_luc": "01/04/2009",
@@ -3259,7 +3264,12 @@
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
       "bi_sua_boi": [],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "TTDB_66_2025_QH15",
+          "ten": "Luật thuế tiêu thụ đặc biệt số 66/2025/QH15"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "26/11/2014",
       "ngay_hieu_luc": "01/01/2016",
@@ -10204,6 +10214,10 @@
         {
           "id": "TNCN_109_2025_QH15",
           "ten": "Thuế thu nhập cá nhân 2025 số 109/2025/QH15"
+        },
+        {
+          "id": "Luat_09_2026_QH16",
+          "ten": "Luật số 09/2026/QH16"
         }
       ],
       "bi_thay_boi": [],
@@ -10424,7 +10438,12 @@
       ],
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
-      "bi_sua_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "Luat_09_2026_QH16",
+          "ten": "Luật số 09/2026/QH16"
+        }
+      ],
       "bi_thay_boi": [],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "10/12/2025",
@@ -10497,7 +10516,12 @@
       ],
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
-      "bi_sua_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "Luat_09_2026_QH16",
+          "ten": "Luật số 09/2026/QH16"
+        }
+      ],
       "bi_thay_boi": [],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "14/06/2025",
@@ -10785,6 +10809,45 @@
       "download": []
     },
     {
+      "id": "TTDB_66_2025_QH15",
+      "loai_van_ban": "Luật",
+      "tieu_de": "66/2025/QH15",
+      "mo_ta": "Luật thuế tiêu thụ đặc biệt số 66/2025/QH15",
+      "file_type": "doc",
+      "url": "TTDB_66_2025_QH15",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "5f86c950ea262",
+          "ten": "Luật số 27/2008/QH12"
+        },
+        {
+          "id": "62148e268e723",
+          "ten": "Luật số 70/2014/QH13"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "Luat_09_2026_QH16",
+          "ten": "Luật số 09/2026/QH16"
+        }
+      ],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "14/06/2025",
+      "ngay_hieu_luc": "01/01/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Quốc hội",
+      "tag": [
+        10
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
       "id": "KTOAN_99_2025_TT_BTC",
       "loai_van_ban": "Thông tư",
       "tieu_de": "99/2025/TT-BTC",
@@ -10934,6 +10997,95 @@
       "tag": [
         19
       ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "50_2026_TT-BTC",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "50/2026/TT-BTC",
+      "mo_ta": "Thông tư 50/2026/TT-BTC ngày 13/05/2026 sửa đổi Thông tư 18/2026/TT-BTC quy định về hồ sơ, thủ tục quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "file_type": "doc",
+      "url": "50_2026_TT-BTC",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "13/05/2026",
+      "ngay_hieu_luc": "13/05/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ Tài chính",
+      "tag": [
+        24
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "Luat_09_2026_QH16",
+      "loai_van_ban": "Luật",
+      "tieu_de": "09/2026/QH16",
+      "mo_ta": "Luật số 09/2026/QH16 sửa đổi Luật Thuế thu nhập cá nhân, Luật Thuế giá trị gia tăng, Luật Thuế thu nhập doanh nghiệp và Luật Thuế tiêu thụ đặc biệt",
+      "file_type": "doc",
+      "url": "Luat_09_2026_QH16",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "TNCN_109_2025_QH15",
+          "ten": "Luật Thuế thu nhập cá nhân số 109/2025/QH15"
+        },
+        {
+          "id": "GTGT_48_2024_QH15",
+          "ten": "Luật thuế giá trị gia tăng số 48/2024/QH15"
+        },
+        {
+          "id": "",
+          "ten": "Luật số 90/2025/QH15"
+        },
+        {
+          "id": "TNDN_67_2025_QH15",
+          "ten": "Luật thuế thu nhập doanh nghiệp số 67/2025/QH15"
+        },
+        {
+          "id": "",
+          "ten": "Luật số 90/2025/QH15"
+        },
+        {
+          "id": "",
+          "ten": "Luật số 127/2025/QH15"
+        },
+        {
+          "id": "",
+          "ten": "Luật số 133/2025/QH15"
+        },
+        {
+          "id": "",
+          "ten": "Luật số 141/2025/QH15"
+        },
+        {
+          "id": "",
+          "ten": "Luật số 143/2025/QH15"
+        },
+        {
+          "id": "TTDB_66_2025_QH15",
+          "ten": "Luật thuế tiêu thụ đặc biệt số 66/2025/QH15"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "24/04/2026",
+      "ngay_hieu_luc": "24/04/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Quốc hội",
+      "tag": [],
       "dmuc": [],
       "download": []
     }
