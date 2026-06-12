@@ -7,3 +7,4 @@ Disallow: /van-ban-phap-luat-mobile-detail.html
 Disallow: /noi-dung-kinh-te-mobile.html
 Disallow: /danh-muc-chuong-mobile.html
 Allow: /
+Sitemap: https://apptax.net/sitemap.xml
