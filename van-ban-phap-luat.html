@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="vi">
   <head>
-
     <meta charset="utf-8">
     <title>Văn bản pháp luật</title>
     <meta name="description" content="Hệ thống văn bản về thuế mới nhất, pháp luật thuế - phí - lệ phí, thuế gtgt, thuế tndn, thuế tncn, hộ cá nhân, cá nhân kinh doanh">
@@ -41,15 +40,10 @@
         </nav>
         <div class="row">
             <div class="col-sm-9">
-              <div class="vbpl-top-qc" style="margin-bottom: 15px; text-align: center;">
+				<div class="vbpl-top-qc" style="margin-bottom: 15px; text-align: center;">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5450749028139171" crossorigin="anonymous"></script>
                 <!-- vbpl_top -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-5450749028139171"
-                     data-ad-slot="2084633661"
-                     data-ad-format="auto"
-                     data-full-width-responsive="true"></ins>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5450749028139171" data-ad-slot="2084633661" data-ad-format="auto" data-full-width-responsive="true"></ins>
                 <script>
                      (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
@@ -58,6 +52,7 @@
               <div id="noi-dung">
                 <p>Nhằm giúp người sử dụng thuận tiện trong việc cập nhật và áp dụng văn bản về pháp luật về thuế; appTax.net xin cập nhật Hệ thống các Luật, Nghị định, Thông tư, Văn bản hợp nhất về thuế đã hết hiệu lực, đang còn hiệu lực hoặc sắp có hiệu lực thi hành</p>
               </div>
+			  <div id="seo-content" style="height: 1px;overflow: hidden;opacity: 0.01;"></div>
             </div>
             <div class="col-sm-3">
               <div id="menu">
@@ -82,7 +77,20 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/lib.js"></script>
     <script type="text/javascript">
-      function click_link(e)
+	  function xulyVanBan(str) {
+			if (!str) return '';
+			// 1. Chuyển đổi ký tự tiếng Việt có dấu thành không dấu
+			let slug = str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+			// 2. Thay thế chữ Đ/đ thành D/d
+			slug = slug.replace(/[đĐ]/g, 'd');
+			// 3. Thay thế các ký tự đặc biệt (bao gồm cả dấu "/") thành dấu "-"
+			// Bạn có thể thêm các ký tự khác vào trong dấu [ ] nếu muốn thay thế thêm
+			slug = slug.replace(/[\/\\\s\_\,\.\?]+/g, '-');
+			// 4. Loại bỏ các dấu gạch ngang dư thừa ở đầu và cuối chuỗi
+			slug = slug.replace(/^-+|-+$/g, '');
+			return slug;
+		}
+	  function click_link(e)
       {
         var div = document.getElementById('noi-dung');
         var sorry = 'Rất tiếc văn bản này chưa được hệ thống cập nhật';
@@ -125,7 +133,8 @@
                           tmp = detail['huong_dan_cho'];
                           str += '<li>Hướng dẫn cho: ';
                           for (var k=0; k<tmp.length; k++){
-                            str += `<a href="#apptax/${tmp[k]['id']}">${tmp[k]['ten']}</a>, `;
+							ten_vb = xulyVanBan(tmp[k]['ten']);
+                            str += `<a href="?vb=${ten_vb}#apptax/${tmp[k]['id']}">${tmp[k]['ten']}</a>, `;
                           }
                           str = str.replace(/, $/g, "");
                           str += '</li>';
@@ -135,7 +144,8 @@
                           var sua_doi_cho = detail['sua_doi_cho'];
                           str += '<li>Sửa đổi cho: ';
                           for (var k=0; k<sua_doi_cho.length; k++){
-                            str += `<a href="#apptax/${sua_doi_cho[k]['id']}">${sua_doi_cho[k]['ten']}</a>, `;
+							ten_vb = xulyVanBan(sua_doi_cho[k]['ten']);
+                            str += `<a href="?vb=${ten_vb}#apptax/${sua_doi_cho[k]['id']}">${sua_doi_cho[k]['ten']}</a>, `;
                           }
                           str = str.replace(/, $/g, "");
                           str += '</li>';
@@ -144,7 +154,8 @@
                           var thay_the_cho = detail['thay_the_cho'];
                           str += '<li>Thay thế cho: ';
                           for (var k=0; k<thay_the_cho.length; k++){
-                            str += `<a href="#apptax/${thay_the_cho[k]['id']}">${thay_the_cho[k]['ten']}</a>, `;
+							ten_vb = xulyVanBan(thay_the_cho[k]['ten']);
+                            str += `<a href="?vb=${ten_vb}#apptax/${thay_the_cho[k]['id']}">${thay_the_cho[k]['ten']}</a>, `;
                           }
                           str = str.replace(/, $/g, "");
                           str += '</li>';
@@ -153,7 +164,8 @@
                           tmp = detail['hop_nhat_cho'];
                           str += '<li>Hợp nhất cho: ';
                           for (var k=0; k<tmp.length; k++){
-                            str += `<a href="#apptax/${tmp[k]['id']}">${tmp[k]['ten']}</a>, `;
+							ten_vb = xulyVanBan(tmp[k]['ten']);
+                            str += `<a href="?vb=${ten_vb}#apptax/${tmp[k]['id']}">${tmp[k]['ten']}</a>, `;
                           }
                           str = str.replace(/, $/g, "");
                           str += '</li>';
@@ -163,7 +175,8 @@
                           tmp = detail['huong_dan_boi'];
                           str += '<li>Đã có văn bản hướng dẫn: ';
                           for (var k=0; k<tmp.length; k++){
-                            str += `<a href="#apptax/${tmp[k]['id']}">${tmp[k]['ten']}</a>, `;
+							ten_vb = xulyVanBan(tmp[k]['ten']);
+                            str += `<a href="?vb=${ten_vb}#apptax/${tmp[k]['id']}">${tmp[k]['ten']}</a>, `;
                           }
                           str = str.replace(/, $/g, "");
                           str += '</li>';
@@ -172,7 +185,8 @@
                           var bi_sua_boi = detail['bi_sua_boi'];
                           str += '<li>Bị sửa bởi: ';
                           for (var k=0; k<bi_sua_boi.length; k++){
-                            str += `<a href="#apptax/${bi_sua_boi[k]['id']}">${bi_sua_boi[k]['ten']}</a>, `;
+							ten_vb = xulyVanBan(bi_sua_boi[k]['ten']);
+                            str += `<a href="?vb=${ten_vb}#apptax/${bi_sua_boi[k]['id']}">${bi_sua_boi[k]['ten']}</a>, `;
                           }
                           str = str.replace(/, $/g, "");
                           str += '</li>';
@@ -181,7 +195,8 @@
                           var bi_thay_boi = detail['bi_thay_boi'];
                           str += '<li>Bị thay bởi: ';
                           for (var k=0; k<bi_thay_boi.length; k++){
-                            str += `<a href="#apptax/${bi_thay_boi[k]['id']}">${bi_thay_boi[k]['ten']}</a>, `;
+							ten_vb = xulyVanBan(bi_thay_boi[k]['ten']);
+                            str += `<a href="?vb=${ten_vb}#apptax/${bi_thay_boi[k]['id']}">${bi_thay_boi[k]['ten']}</a>, `;
                           }
                           str = str.replace(/, $/g, "");
                           str += '</li>';
@@ -190,7 +205,8 @@
                           tmp = detail['hop_nhat_boi'];
                           str += '<li>Hợp nhất bởi: ';
                           for (var k=0; k<tmp.length; k++){
-                            str += `<a href="#apptax/${tmp[k]['id']}">${tmp[k]['ten']}</a>, `;
+							ten_vb = xulyVanBan(tmp[k]['ten']);
+                            str += `<a href="?vb=${ten_vb}#apptax/${tmp[k]['id']}">${tmp[k]['ten']}</a>, `;
                           }
                           str = str.replace(/, $/g, "");
                           str += '</li>';
@@ -227,7 +243,26 @@
                             iframe.setAttribute('id','my-iframe');
                             iframe.setAttribute('scrolling','no');
                             iframe.setAttribute('width','100%');
+							iframe.setAttribute('loading', 'lazy');
                             iframe.setAttribute('src',`vb/${detail['url']}.htm`);
+							
+							iframe.addEventListener('load', function() {
+								try {
+									// Truy cập vào bên trong ruột của iframe vừa tải xong
+									const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+									// Lấy toàn bộ chữ thuần (Text) bên trong iframe
+									const chuVanBan = iframeDoc.body.innerText;
+									// Đổ dữ liệu chữ này vào thẻ div SEO trên trang chính
+									const seoDiv = document.getElementById('seo-content');
+									if (seoDiv) {
+										seoDiv.innerText = chuVanBan;
+									}
+								} catch (error) {
+									//
+								}
+							});
+							
+							
                             div.appendChild(iframe);
                               window.addEventListener('message', function(e){
                                 // message passed can be accessed in "data" attribute of the event object
@@ -319,7 +354,8 @@
                 li.setAttribute('class','list-group-item');
                 a = document.createElement('a');
                 a.setAttribute('class','link-vb');
-                a.setAttribute('href',`#${i}/${vb[j]['id']}`);
+				ten_vb= xulyVanBan(vb[j]['loai_van_ban']+' số '+vb[j]['tieu_de'])
+                a.setAttribute('href',`?vb=${ten_vb}#${i}/${vb[j]['id']}`);
                 a.setAttribute('data-toggle','tooltip');
                 a.setAttribute('data-placement','left');
                 a.setAttribute('title',vb[j]['mo_ta']);
