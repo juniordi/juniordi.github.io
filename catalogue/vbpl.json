@@ -8442,7 +8442,12 @@
           "ten": "Thông tư số 80/2021/TT-BTC"
         }
       ],
-      "bi_sua_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "QLT_373_2025_ND_CP",
+          "ten": "Nghị định 373/2025/NĐ-CP"
+        }
+      ],
       "bi_thay_boi": [],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "19/10/2020",
@@ -10560,6 +10565,10 @@
         {
           "id": "GTGT_359_2025_ND_CP",
           "ten": "Nghị định 359/2025/NĐ-CP"
+        },
+        {
+          "id": "GTGT_144_2026_ND_CP",
+          "ten": "Nghị định 144/2026/NĐ-CP"
         }
       ],
       "bi_thay_boi": [],
@@ -10868,6 +10877,36 @@
       "noi_ban_hanh": "Bộ Tài chính",
       "tag": [
         19
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "QLT_373_2025_ND_CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "373/2025/NĐ-CP",
+      "mo_ta": "Nghị định 373/2025/NĐ-CP ngày 31/12/2025 sửa đổi Nghị định 126/2020/NĐ-CP hướng dẫn Luật Quản lý thuế",
+      "file_type": "doc",
+      "url": "QLT_373_2025_ND_CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "5f9135179cd93",
+          "ten": "Nghị định 126/2020/NĐ-CP"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "31/12/2025",
+      "ngay_hieu_luc": "14/02/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Nghị định",
+      "tag": [
+        1
       ],
       "dmuc": [],
       "download": []
