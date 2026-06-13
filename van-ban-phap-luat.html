@@ -89,6 +89,27 @@
 			slug = slug.replace(/^-+|-+$/g, '');
 			return slug;
 		}
+		function layDongCuoi(chuoiHtml) {
+			const parser = new DOMParser();
+			const doc = parser.parseFromString(chuoiHtml, 'text/html');
+			// 1. Lấy class của table và tbody gốc (nếu không có class sẽ trả về chuỗi rỗng)
+			const tableClass = doc.querySelector('table')?.className ? `class="${doc.querySelector('table').className}"` : '';
+			const tbodyClass = doc.querySelector('tbody')?.className ? `class="${doc.querySelector('tbody').className}"` : '';
+			// 2. Lấy nguyên vẹn thẻ <thead> (outerHTML sẽ tự bê cả class của thead theo)
+			const thead = doc.querySelector('thead');
+			const chuoiThead = thead ? thead.outerHTML : '';
+			// 3. Lấy các dòng <tr> trong tbody
+			const tatCaDongTbody = Array.from(doc.querySelectorAll('tbody tr'));
+			const mDongCuoi = tatCaDongTbody.slice(-30);
+			// 4. Ráp lại thành chuỗi HTML mới kèm theo class
+			const chuoiTableMoi = `<table ${tableClass}>
+				${chuoiThead}
+				<tbody ${tbodyClass}>
+					${mDongCuoi.map(tr => tr.outerHTML).join('')}
+				</tbody>
+			</table>`;
+			return chuoiTableMoi;
+		}
 	  function click_link(e)
       {
         var div = document.getElementById('noi-dung');
@@ -362,7 +383,6 @@
                 a.textContent = vb[j]['loai_van_ban']+' số '+vb[j]['tieu_de'];
                 li.appendChild(a);
                 tbl += `<td>${vb[j]['loai_van_ban']}</td><td><a href="van-ban-phap-luat.html?vb=${ten_vb}#${i}/${vb[j]['id']}">${vb[j]['tieu_de']}</a></td><td>${vb[j]['ngay_hieu_luc']}</td>`;
-
                 //add badge neu co canh bao
                 td_het_han = `<td></td>`;
                 is_outdate = false;
@@ -423,7 +443,7 @@
           if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
             
           }else{
-            document.getElementById('noi-dung').innerHTML += tbl;
+            document.getElementById('noi-dung').innerHTML += layDongCuoi(tbl);
           }
           
 
