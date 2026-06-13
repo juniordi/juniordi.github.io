@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://apptax.net/index.html</loc><priority>1.0</priority></url>
+<url><loc>https://apptax.net/van-ban-phap-luat.html</loc><priority>1.0</priority></url>
+<url><loc>https://apptax.net/noi-dung-kinh-te.html</loc><priority>0.8</priority></url>
+<url><loc>https://apptax.net/danh-muc-chuong.html</loc><priority>0.8</priority></url>
 <url><loc>https://apptax.net/van-ban-phap-luat.html?vb=Luat-so-78-2006-QH11#0/5f6b0c01f023a</loc><priority>1.0</priority></url>
 <url><loc>https://apptax.net/van-ban-phap-luat.html?vb=Nghi-dinh-so-85-2007-Nd-CP#0/5faceba019a4d</loc><priority>1.0</priority></url>
 <url><loc>https://apptax.net/van-ban-phap-luat.html?vb=Thong-tu-so-60-2007-TT-BTC#0/5facf045c1d4d</loc><priority>1.0</priority></url>
