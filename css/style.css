@@ -1,4 +1,5 @@
 body{font-family:  -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;}
+main{display: block;}
 .navbar-brand{
   font-family:Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
   font-weight: bold;
@@ -50,5 +51,4 @@ p {margin:0;}
   font-size: 85%;
 }
 .badge-small{margin-left: 3px; font-size: 65%; font-weight: 550;}
-#my-iframe{border: #ccc 1px solid;
-}
+#my-iframe{border: #ccc 1px solid;}
