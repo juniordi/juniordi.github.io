@@ -10,7 +10,6 @@
     <link rel="canonical" href="https://apptax.net/van-ban-phap-luat.html" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/font.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
   </head>
@@ -39,7 +38,7 @@
           </div>
         </nav>
         <div class="row">
-            <div class="col-sm-9">
+            <main class="col-sm-9">
 				<div class="vbpl-top-qc" style="margin-bottom: 15px; text-align: center;">
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5450749028139171" crossorigin="anonymous"></script>
                 <!-- vbpl_top -->
@@ -53,7 +52,7 @@
                 <p>Nhằm giúp người sử dụng thuận tiện trong việc cập nhật và áp dụng văn bản về pháp luật về thuế; appTax.net xin cập nhật Hệ thống các Luật, Nghị định, Thông tư, Văn bản hợp nhất về thuế đã hết hiệu lực, đang còn hiệu lực hoặc sắp có hiệu lực thi hành</p>
               </div>
 			  <div id="seo-content" style="height: 1px;overflow: hidden;opacity: 0.01;"></div>
-            </div>
+            </main>
             <div class="col-sm-3">
               <div id="menu">
                 <input id="txtSearchVb" class="form-control" type="text" placeholder="Tìm số văn bản" aria-label="Search">
@@ -244,6 +243,7 @@
                             iframe.setAttribute('scrolling','no');
                             iframe.setAttribute('width','100%');
 							iframe.setAttribute('loading', 'lazy');
+							iframe.title = `Nội dung hiển thị: ${detail['loai_van_ban']} số ${detail['tieu_de']}`; //detail['loai_van_ban']+' số '+detail['tieu_de']
                             iframe.setAttribute('src',`vb/${detail['url']}.htm`);
 							
 							iframe.addEventListener('load', function() {
@@ -337,8 +337,8 @@
             div.setAttribute('class','cata-menu');
             cata = document.createElement('a');
             cata.setAttribute('id','no'+i);
-            cata.setAttribute('href','javascript:void(0)');
-            cata.setAttribute('onclick','click_cata(this)');
+            cata.setAttribute('href','?cata='+i);
+            cata.setAttribute('onclick','click_cata(this);return false;');
             cata.textContent = items[i]['ten'];
             div.appendChild(cata);
             //add sub
@@ -361,7 +361,7 @@
                 a.setAttribute('title',vb[j]['mo_ta']);
                 a.textContent = vb[j]['loai_van_ban']+' số '+vb[j]['tieu_de'];
                 li.appendChild(a);
-                tbl += `<td>${vb[j]['loai_van_ban']}</td><td><a href="van-ban-phap-luat.html#${i}/${vb[j]['id']}">${vb[j]['tieu_de']}</a></td><td>${vb[j]['ngay_hieu_luc']}</td>`;
+                tbl += `<td>${vb[j]['loai_van_ban']}</td><td><a href="van-ban-phap-luat.html?vb=${ten_vb}#${i}/${vb[j]['id']}">${vb[j]['tieu_de']}</a></td><td>${vb[j]['ngay_hieu_luc']}</td>`;
 
                 //add badge neu co canh bao
                 td_het_han = `<td></td>`;
