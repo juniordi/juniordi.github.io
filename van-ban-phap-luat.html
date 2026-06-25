@@ -15,8 +15,7 @@
   </head>
   <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" w3-include-html="menu.html">
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" w3-include-html="menu.html"></nav>
         <div class="row">
             <main class="col-sm-9">
 				<div class="vbpl-top-qc" style="margin-bottom: 15px; text-align: center;">
@@ -39,17 +38,7 @@
               </div>
             </div>
         </div>
-        <footer class="footer">
-            <div>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a href="index.html">Trang chủ</a></li>
-                  <li class="list-inline-item"><a href="https://lehoangdieu.blogspot.com/">Hướng dẫn khai nộp thuế</a></li>
-                  <li class="list-inline-item"><a href="https://www.facebook.com/khainopthue">Fanpage</a></li>
-                  <li class="list-inline-item"><a href="http://tracuuhoadon.gdt.gov.vn" target="_blank" rel="nofollow">Tra cứu hóa đơn</a></li>
-                </ul>
-          </div>      
-            <div class="text-muted">© Copyright 2020 <a href="mailto:lehoangdieu@gmail.com">lehoangdieu</a></div>
-        </footer>
+        <footer class="footer" include-footer="footer.html"></footer>
     </div>
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -57,6 +46,7 @@
 	  <script src="js/menu.js"></script>
     <script src="js/lib.js"></script>
     <script type="text/javascript">
+		$(document).ready(function(){includeHTML();includeFooter();})
 	  function xulyVanBan(str) {
 			if (!str) return '';
 			// 1. Chuyển đổi ký tự tiếng Việt có dấu thành không dấu
