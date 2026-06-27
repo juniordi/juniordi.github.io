@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <title>Tính thuế TNCN</title>
+    <meta name="description" content="Công cụ tự động tính thuế thu nhập cá nhân (TNCN) theo tháng và theo năm mới nhất, Nhập thu nhập để tính chính xác số tiền thuế, Tính thuế thu nhập cá nhân theo biểu lũy tiến mới nhất, tính thuế tncn theo biểu lũy tiến mới nhất">
+    <meta name="keywords" content="công cụ tính thuế thu nhập cá nhân (TNCN), Tính thuế thu nhập cá nhân theo biểu lũy tiến mới nhất, tính thuế tncn theo biểu lũy tiến mới nhất" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "WebApplication",
+	  "name": "Công cụ tính thuế thu nhập cá nhân AppTax",
+	  "url": "https://apptax.net/tinh-thue-thu-nhap-ca-nhan.html",
+	  "applicationCategory": "BusinessApplication",
+	  "operatingSystem": "All",
+	  "browserRequirements": "Requires HTML5/JavaScript",
+	  "description": "Ứng dụng trực tuyến giúp tính toán thuế thu nhập cá nhân theo tháng và theo năm dựa trên quy định pháp luật Thuế mới nhất."
+	}
+	</script>
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" w3-include-html="menu.html">
+        </nav>
+        <div class="row">
+            <div class="col-sm-9">
+                <form action="#" id="frm" name="frm" method="POST" style="padding-top: 1em">
+                    <div class="form-row">
+                        <div class="form-group col-md-10">
+                          <label for="txtSoTien">Thu nhập tính thuế</label>
+                          <input type="text" class="form-control form-control-sm" id="txtSoTien" name="txtSoTien" placeholder="Thu nhập tính thuế" required autofocus>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="rdType" id="rdTheoThang" value="1" checked>
+                          <label class="form-check-label" for="rdTheoThang">Tính thu nhập theo tháng</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="rdType" id="rdTheoNam" value="0">
+                          <label class="form-check-label" for="rdTheoNam">Tính thu nhập theo năm</label>
+                        </div>                    
+					</div>
+                    <div class="form-row">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="rdNam" id="rdNamCu" value="0">
+                          <label class="form-check-label" for="rdNamCu">Năm 2025 trở về trước</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="rdNam" id="rdNam26" value="1" checked>
+                          <label class="form-check-label" for="rdNam26">Từ năm 2026</label>
+                        </div>                    
+					</div>
+                  <div class="form-row" id="warning"></div>
+                  <div class="form-row" style="padding-top:1em">
+                    <div class="col-sm-3">
+                      <button type="submit" id="btnOk" name="btnOk" class="btn btn-primary">Thực hiện</button>
+                    </div>
+                  </div>
+                </form>
+                <div id="result" style="padding: 1em 0;font-size:small"></div>
+            </div>
+            <div class="col-sm-3">
+                <h3>Cách tính</h3>
+                <div class="font-small">
+                    <a href="van-ban-phap-luat.html?vb=Luat-Thue-thu-nhap-ca-nhan-04-2007-QH12#apptax/5f79574d30b9e" target="_blank">- Luật thuế TNCN số 04/2007/QH12 quy định biểu thuế luỹ tiến từng phần gồm 7 bậc.</a><br/>
+                    <a href="van-ban-phap-luat.html?vb=Luat-so-109-2025-QH15#10/TNCN_109_2025_QH15" target="_blank">- Luật thuế TNCN số 109/2025/QH15 quy định biểu thuế luỹ tiến từng phần gồm 5 bậc.</a><br/>
+					<span>- Thu nhập tính thuế đối với thu nhập từ tiền lương, tiền công là tổng thu nhập chịu thuế quy định mà người nộp thuế nhận được trong kỳ tính thuế, trừ (-) đi các khoản đóng góp bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm trách nhiệm nghề nghiệp đối với một số ngành, nghề phải tham gia bảo hiểm bắt buộc, khoản đóng góp tham gia bảo hiểm hưu trí bổ sung theo quy định của Luật Bảo hiểm xã hội, mua bảo hiểm hưu trí tự nguyện, bảo hiểm nhân thọ không vượt quá mức do Chính phủ quy định và các khoản giảm trừ quy định.</span>
+                </div>
+            </div>
+        </div>
+        <footer class="footer" include-footer="footer.html">
+        </footer>
+    </div>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script type="text/javascript">
+			includeHTML();
+			includeFooter();
+		document.getElementById('frm').addEventListener('submit', function(e) {
+			// Ngăn chặn form submit tải lại trang
+			e.preventDefault();
+
+			// 1. Lấy phần tử và giá trị của ô nhập số tiền
+			const txtSoTien = document.getElementById('txtSoTien');
+			const soTienRaw = txtSoTien.value.trim();
+
+			// 2. Kiểm tra xem người dùng đã nhập tiền chưa
+			if (soTienRaw === "") {
+				alert("Vui lòng nhập số tiền thu nhập tính thuế!");
+				txtSoTien.focus(); // Đưa con trỏ chuột vào ô nhập liệu
+				return; // Dừng xử lý tiếp theo
+			}
+
+			// Chuyển đổi giá trị nhập sang kiểu số để tính toán
+			const soTien = parseFloat(soTienRaw);
+			if (isNaN(soTien) || soTien < 0) {
+				alert("Số tiền nhập vào không hợp lệ!");
+				txtSoTien.focus();
+				return;
+			}
+
+			// 3. Đọc giá trị của các Radio Button
+			// Lấy radio đang được chọn của nhóm 'rdType' (Theo tháng = "1", Theo năm = "0")
+			const typeSelected = document.querySelector('input[name="rdType"]:checked').value;
+			
+			// Lấy radio đang được chọn của nhóm 'rdNam' (Năm cũ = "0", Năm 26 = "1")
+			const namSelected = document.querySelector('input[name="rdNam"]:checked').value;
+
+			// 4. Điều hướng đến các hàm giả định dựa trên cấu hình radio được check
+			if (typeSelected === "1") {
+				// Trường hợp: Tính theo THÁNG
+				if (namSelected === "1") {
+					kq = tinhThueTNCN2026(soTien);
+					kq_detail = '';
+					kq.chiTietCacBac.forEach((bac, index) => {
+						kq_detail += `${bac.tenBac}<br/>`;
+						kq_detail += ` -> ${bac.dongTien}<br/>`;
+						kq_detail += ` -> Tính thuế: ${bac.phepTinhThue}<br/>`;
+					});
+					kq_detail +=  `=> TỔNG SỐ THUẾ TNCN PHẢI NỘP: ${kq.tongThuePhaiNop.toLocaleString()} VND`;
+					document.getElementById("result").innerHTML =kq_detail;
+				} else {
+					kq = tinhThueTNCN(soTien);
+					kq_detail = '';
+					kq.chiTietCacBac.forEach((bac, index) => {
+						kq_detail += `${bac.tenBac}<br/>`;
+						kq_detail += ` -> ${bac.dongTien}<br/>`;
+						kq_detail += ` -> Tính thuế: ${bac.phepTinhThue}<br/>`;
+					});
+					kq_detail +=  `=> TỔNG SỐ THUẾ TNCN PHẢI NỘP: ${kq.tongThuePhaiNop.toLocaleString()} VND`;
+					document.getElementById("result").innerHTML =kq_detail;
+				}
+			} else {
+				// Trường hợp: Tính theo NĂM
+				if (namSelected === "1") {
+					kq=tinhThueTNCN2026Nam(soTien);
+					kq_detail = '';
+					kq.chiTietCacBac.forEach((bac, index) => {
+						kq_detail += `${bac.tenBac}<br/>`;
+						kq_detail += ` -> ${bac.dongTien}<br/>`;
+						kq_detail += ` -> Tính thuế: ${bac.phepTinhThue}<br/>`;
+					});
+					kq_detail +=  `=> TỔNG SỐ THUẾ TNCN PHẢI NỘP: ${kq.tongThuePhaiNop.toLocaleString()} VND`;
+					document.getElementById("result").innerHTML =kq_detail;
+				} else {
+					kq=tinhThueTNCNNam(soTien);
+					kq_detail = '';
+					kq.chiTietCacBac.forEach((bac, index) => {
+						kq_detail += `${bac.tenBac}<br/>`;
+						kq_detail += ` -> ${bac.dongTien}<br/>`;
+						kq_detail += ` -> Tính thuế: ${bac.phepTinhThue}<br/>`;
+					});
+					kq_detail +=  `=> TỔNG SỐ THUẾ TNCN PHẢI NỘP: ${kq.tongThuePhaiNop.toLocaleString()} VND`;
+					document.getElementById("result").innerHTML =kq_detail;
+				}
+			}
+		});
+		//tncn 2026 - thang
+		function tinhThueTNCN2026(income) {
+			const cacBacThue = [
+				{ max: 10000000, rate: 0.05, label: "Bậc 1 (Đến 10tr):" },
+				{ max: 30000000, rate: 0.10, label: "Bậc 2 (Trên 10tr đến 30tr):" },
+				{ max: 60000000, rate: 0.20, label: "Bậc 3 (Trên 30tr đến 60tr):" },
+				{ max: 100000000, rate: 0.30, label: "Bậc 4 (Trên 60tr đến 100tr):" },
+				{ max: null, rate: 0.35, label: "Bậc 5 (Trên 100tr):" }
+			];
+
+			let tongThue = 0;
+			let soTienConLai = Math.max(0, income); // Dòng tiền gốc vơi dần đi
+			let mocDuoiTruoc = 0;
+			const dienGiaiChiTiet = [];
+
+			for (let i = 0; i < cacBacThue.length; i++) {
+				const bac = cacBacThue[i];
+				
+				// Nếu tiền đã trừ hết sạch từ các bậc trước, dừng vòng lặp
+				if (soTienConLai <= 0) break;
+
+				let thuNhapTrongBac = 0;
+				let chuoiDienGiaiDongTien = "";
+				const phanTram = bac.rate * 100;
+
+				if (bac.max === null) {
+					// Bậc cuối cùng (Bậc 5)
+					thuNhapTrongBac = soTienConLai;
+					chuoiDienGiaiDongTien = `Bậc cuối, lấy toàn bộ số tiền còn lại đưa vào tính thuế: ${soTienConLai.toLocaleString()}`;
+				} else {
+					const hanMucToiDaCuaBac = bac.max - mocDuoiTruoc;
+
+					if (soTienConLai >= hanMucToiDaCuaBac) {
+						// Thu nhập còn lại lớn hơn hạn mức bậc hiện tại -> Trích trọn vẹn hạn mức bậc
+						thuNhapTrongBac = hanMucToiDaCuaBac;
+						const ketQuaTru = soTienConLai - thuNhapTrongBac;
+						
+						chuoiDienGiaiDongTien = `Trích ${thuNhapTrongBac.toLocaleString()} tính thuế. Số tiền còn lại: ${soTienConLai.toLocaleString()} - ${thuNhapTrongBac.toLocaleString()} = ${ketQuaTru.toLocaleString()}`;
+					} else {
+						// Thu nhập còn lại nhỏ hơn hạn mức bậc hiện tại -> Điểm dừng nằm ở bậc này!
+						thuNhapTrongBac = soTienConLai;
+						
+						chuoiDienGiaiDongTien = `Số tiền còn lại ít hơn hạn mức của bậc, lấy hết tính thuế: ${soTienConLai.toLocaleString()}.`;
+					}
+					mocDuoiTruoc = bac.max;
+				}
+
+				const thueCuaBac = thuNhapTrongBac * bac.rate;
+				tongThue += thueCuaBac;
+
+				// Lưu thông tin hiển thị
+				dienGiaiChiTiet.push({
+					tenBac: bac.label,
+					dongTien: chuoiDienGiaiDongTien,
+					phepTinhThue: `${thuNhapTrongBac.toLocaleString()} × ${phanTram}% = ${thueCuaBac.toLocaleString()} VND`
+				});
+
+				// TRỪ LÙI THỰC TẾ: Tiền còn lại giảm đi đúng bằng số tiền vừa đem đi tính thuế
+				soTienConLai -= thuNhapTrongBac;
+			}
+
+			return {
+				tongThuNhap: income,
+				tongThuePhaiNop: tongThue,
+				chiTietCacBac: dienGiaiChiTiet
+			};
+		}
+		//thue tncn truoc 2026 - thang
+		function tinhThueTNCN(income) {
+			const cacBacThue = [
+				{ max: 5000000, rate: 0.05, label: "Bậc 1 (Đến 5tr):" },
+				{ max: 10000000, rate: 0.10, label: "Bậc 2 (Đến 10tr):" },
+				{ max: 18000000, rate: 0.15, label: "Bậc 3 (Đến 15tr):" },
+				{ max: 32000000, rate: 0.20, label: "Bậc 4 (Đến 32tr):" },
+				{ max: 52000000, rate: 0.25, label: "Bậc 5 (Đến 52tr):" },
+				{ max: 80000000, rate: 0.30, label: "Bậc 6 (Đến 80tr):" },
+				{ max: null, rate: 0.35, label: "Bậc 7 (Trên 800tr):" }
+			];
+
+			let tongThue = 0;
+			let soTienConLai = Math.max(0, income); // Dòng tiền gốc vơi dần đi
+			let mocDuoiTruoc = 0;
+			const dienGiaiChiTiet = [];
+
+			for (let i = 0; i < cacBacThue.length; i++) {
+				const bac = cacBacThue[i];
+				
+				// Nếu tiền đã trừ hết sạch từ các bậc trước, dừng vòng lặp
+				if (soTienConLai <= 0) break;
+
+				let thuNhapTrongBac = 0;
+				let chuoiDienGiaiDongTien = "";
+				const phanTram = bac.rate * 100;
+
+				if (bac.max === null) {
+					// Bậc cuối cùng (Bậc 5)
+					thuNhapTrongBac = soTienConLai;
+					chuoiDienGiaiDongTien = `Bậc cuối, lấy toàn bộ số tiền còn lại đưa vào tính thuế: ${soTienConLai.toLocaleString()}`;
+				} else {
+					const hanMucToiDaCuaBac = bac.max - mocDuoiTruoc;
+
+					if (soTienConLai >= hanMucToiDaCuaBac) {
+						// Thu nhập còn lại lớn hơn hạn mức bậc hiện tại -> Trích trọn vẹn hạn mức bậc
+						thuNhapTrongBac = hanMucToiDaCuaBac;
+						const ketQuaTru = soTienConLai - thuNhapTrongBac;
+						
+						chuoiDienGiaiDongTien = `Trích ${thuNhapTrongBac.toLocaleString()} tính thuế. Số tiền còn lại: ${soTienConLai.toLocaleString()} - ${thuNhapTrongBac.toLocaleString()} = ${ketQuaTru.toLocaleString()}`;
+					} else {
+						// Thu nhập còn lại nhỏ hơn hạn mức bậc hiện tại -> Điểm dừng nằm ở bậc này!
+						thuNhapTrongBac = soTienConLai;
+						
+						chuoiDienGiaiDongTien = `Số tiền còn lại ít hơn hạn mức của bậc, lấy hết tính thuế: ${soTienConLai.toLocaleString()}.`;
+					}
+					mocDuoiTruoc = bac.max;
+				}
+
+				const thueCuaBac = thuNhapTrongBac * bac.rate;
+				tongThue += thueCuaBac;
+
+				// Lưu thông tin hiển thị
+				dienGiaiChiTiet.push({
+					tenBac: bac.label,
+					dongTien: chuoiDienGiaiDongTien,
+					phepTinhThue: `${thuNhapTrongBac.toLocaleString()} × ${phanTram}% = ${thueCuaBac.toLocaleString()} VND`
+				});
+
+				// TRỪ LÙI THỰC TẾ: Tiền còn lại giảm đi đúng bằng số tiền vừa đem đi tính thuế
+				soTienConLai -= thuNhapTrongBac;
+			}
+
+			return {
+				tongThuNhap: income,
+				tongThuePhaiNop: tongThue,
+				chiTietCacBac: dienGiaiChiTiet
+			};
+		}
+
+		function tinhThueTNCN2026Nam(income) {
+			const cacBacThue = [
+				{ max: 120000000, rate: 0.05, label: "Bậc 1 (Đến 120tr)" },
+				{ max: 360000000, rate: 0.10, label: "Bậc 2 (Trên 120tr đến 360tr)" },
+				{ max: 720000000, rate: 0.20, label: "Bậc 3 (Trên 360tr đến 720tr)" },
+				{ max: 1200000000, rate: 0.30, label: "Bậc 4 (Trên 720tr đến 1 tỷ 200tr)" },
+				{ max: null, rate: 0.35, label: "Bậc 5 (Trên 1 tỷ 200tr)" }
+			];
+
+			let tongThue = 0;
+			let soTienConLai = Math.max(0, income); // Dòng tiền gốc vơi dần đi
+			let mocDuoiTruoc = 0;
+			const dienGiaiChiTiet = [];
+
+			for (let i = 0; i < cacBacThue.length; i++) {
+				const bac = cacBacThue[i];
+				
+				// Nếu tiền đã trừ hết sạch từ các bậc trước, dừng vòng lặp
+				if (soTienConLai <= 0) break;
+
+				let thuNhapTrongBac = 0;
+				let chuoiDienGiaiDongTien = "";
+				const phanTram = bac.rate * 100;
+
+				if (bac.max === null) {
+					// Bậc cuối cùng (Bậc 5)
+					thuNhapTrongBac = soTienConLai;
+					chuoiDienGiaiDongTien = `Bậc cuối, lấy toàn bộ số tiền còn lại đưa vào tính thuế: ${soTienConLai.toLocaleString()}`;
+				} else {
+					const hanMucToiDaCuaBac = bac.max - mocDuoiTruoc;
+
+					if (soTienConLai >= hanMucToiDaCuaBac) {
+						// Thu nhập còn lại lớn hơn hạn mức bậc hiện tại -> Trích trọn vẹn hạn mức bậc
+						thuNhapTrongBac = hanMucToiDaCuaBac;
+						const ketQuaTru = soTienConLai - thuNhapTrongBac;
+						
+						chuoiDienGiaiDongTien = `Trích ${thuNhapTrongBac.toLocaleString()} tính thuế. Số tiền còn lại: ${soTienConLai.toLocaleString()} - ${thuNhapTrongBac.toLocaleString()} = ${ketQuaTru.toLocaleString()}`;
+					} else {
+						// Thu nhập còn lại nhỏ hơn hạn mức bậc hiện tại -> Điểm dừng nằm ở bậc này!
+						thuNhapTrongBac = soTienConLai;
+						
+						chuoiDienGiaiDongTien = `Số tiền còn lại ít hơn hạn mức của bậc, lấy hết tính thuế: ${soTienConLai.toLocaleString()}.`;
+					}
+					mocDuoiTruoc = bac.max;
+				}
+
+				const thueCuaBac = thuNhapTrongBac * bac.rate;
+				tongThue += thueCuaBac;
+
+				// Lưu thông tin hiển thị
+				dienGiaiChiTiet.push({
+					tenBac: bac.label,
+					dongTien: chuoiDienGiaiDongTien,
+					phepTinhThue: `${thuNhapTrongBac.toLocaleString()} × ${phanTram}% = ${thueCuaBac.toLocaleString()} VND`
+				});
+
+				// TRỪ LÙI THỰC TẾ: Tiền còn lại giảm đi đúng bằng số tiền vừa đem đi tính thuế
+				soTienConLai -= thuNhapTrongBac;
+			}
+
+			return {
+				tongThuNhap: income,
+				tongThuePhaiNop: tongThue,
+				chiTietCacBac: dienGiaiChiTiet
+			};
+		}
+
+		function tinhThueTNCNNam(income) {
+			const cacBacThue = [
+				{ max: 60000000, rate: 0.05, label: "Bậc 1 (Đến 60tr)" },
+				{ max: 120000000, rate: 0.10, label: "Bậc 2 (Đến 120tr)" },
+				{ max: 216000000, rate: 0.15, label: "Bậc 3 (Đến 216tr)" },
+				{ max: 384000000, rate: 0.20, label: "Bậc 4 (Đến 384tr)" },
+				{ max: 624000000, rate: 0.25, label: "Bậc 5 (Đến 624tr)" },
+				{ max: 960000000, rate: 0.30, label: "Bậc 6 (Đến 960tr)" },
+				{ max: null, rate: 0.35, label: "Bậc 7 (Trên 960tr)" }
+			];
+
+			let tongThue = 0;
+			let soTienConLai = Math.max(0, income); // Dòng tiền gốc vơi dần đi
+			let mocDuoiTruoc = 0;
+			const dienGiaiChiTiet = [];
+
+			for (let i = 0; i < cacBacThue.length; i++) {
+				const bac = cacBacThue[i];
+				
+				// Nếu tiền đã trừ hết sạch từ các bậc trước, dừng vòng lặp
+				if (soTienConLai <= 0) break;
+
+				let thuNhapTrongBac = 0;
+				let chuoiDienGiaiDongTien = "";
+				const phanTram = bac.rate * 100;
+
+				if (bac.max === null) {
+					// Bậc cuối cùng (Bậc 5)
+					thuNhapTrongBac = soTienConLai;
+					chuoiDienGiaiDongTien = `Bậc cuối, lấy toàn bộ số tiền còn lại đưa vào tính thuế: ${soTienConLai.toLocaleString()}`;
+				} else {
+					const hanMucToiDaCuaBac = bac.max - mocDuoiTruoc;
+
+					if (soTienConLai >= hanMucToiDaCuaBac) {
+						// Thu nhập còn lại lớn hơn hạn mức bậc hiện tại -> Trích trọn vẹn hạn mức bậc
+						thuNhapTrongBac = hanMucToiDaCuaBac;
+						const ketQuaTru = soTienConLai - thuNhapTrongBac;
+						
+						chuoiDienGiaiDongTien = `Trích ${thuNhapTrongBac.toLocaleString()} tính thuế. Số tiền còn lại: ${soTienConLai.toLocaleString()} - ${thuNhapTrongBac.toLocaleString()} = ${ketQuaTru.toLocaleString()}`;
+					} else {
+						// Thu nhập còn lại nhỏ hơn hạn mức bậc hiện tại -> Điểm dừng nằm ở bậc này!
+						thuNhapTrongBac = soTienConLai;
+						
+						chuoiDienGiaiDongTien = `Số tiền còn lại ít hơn hạn mức của bậc, lấy hết tính thuế: ${soTienConLai.toLocaleString()}.`;
+					}
+					mocDuoiTruoc = bac.max;
+				}
+
+				const thueCuaBac = thuNhapTrongBac * bac.rate;
+				tongThue += thueCuaBac;
+
+				// Lưu thông tin hiển thị
+				dienGiaiChiTiet.push({
+					tenBac: bac.label,
+					dongTien: chuoiDienGiaiDongTien,
+					phepTinhThue: `${thuNhapTrongBac.toLocaleString()} × ${phanTram}% = ${thueCuaBac.toLocaleString()} VND`
+				});
+
+				// TRỪ LÙI THỰC TẾ: Tiền còn lại giảm đi đúng bằng số tiền vừa đem đi tính thuế
+				soTienConLai -= thuNhapTrongBac;
+			}
+
+			return {
+				tongThuNhap: income,
+				tongThuePhaiNop: tongThue,
+				chiTietCacBac: dienGiaiChiTiet
+			};
+		}
+			
+			
+    </script>
+  </body>
+</html>
