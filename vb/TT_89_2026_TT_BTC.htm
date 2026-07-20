@@ -2,8 +2,6 @@
 
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
-<title>BỘ TÀI CHÍNH</title>
 <style>
 <!--
  /* Font Definitions */
@@ -20207,7 +20205,15 @@ line-height:normal'><b><span style='font-size:12.0pt;color:black'>&nbsp;</span><
 line-height:normal'><b><span style='font-size:12.0pt;color:black'>&nbsp;</span></b></p>
 
 </div>
-
+<script  type="text/javascript">
+  // Send message to the top window (parent) at 500ms interval
+setInterval(function() {
+    // first parameter is the message to be passed
+    // second paramter is the domain of the parent 
+    // in this case "*" has been used for demo sake (denoting no preference)
+    // in production always pass the target domain for which the message is intended 
+    window.top.postMessage(document.body.scrollHeight, "*");
+}, 500);
+</script>
 </body>
-
 </html>
