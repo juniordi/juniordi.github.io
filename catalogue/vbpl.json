@@ -3788,7 +3788,12 @@
           "ten": "Thông tư số 80/2021/TT-BTC"
         }
       ],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "TT_89_2026_TT_BTC",
+          "ten": "Thông tư 89/2026/TT-BTC"
+        }
+      ],
       "hop_nhat_boi": [
         {
           "id": "5f7abe089bdb2",
@@ -3801,7 +3806,7 @@
       ],
       "ngay_ban_hanh": "15/06/2015",
       "ngay_hieu_luc": "01/01/2015",
-      "ngay_het_han": "",
+      "ngay_het_han": "30/06/2026",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
         2,
@@ -9161,11 +9166,16 @@
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
       "bi_sua_boi": [],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "TT_89_2026_TT_BTC",
+          "ten": "Thông tư 89/2026/TT-BTC"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "18/03/2021",
       "ngay_hieu_luc": "03/05/2021",
-      "ngay_het_han": "",
+      "ngay_het_han": "30/06/2026",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
         20
@@ -9572,11 +9582,16 @@
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
       "bi_sua_boi": [],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "TT_89_2026_TT_BTC",
+          "ten": "Thông tư 89/2026/TT-BTC"
+        }
+      ],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "29/09/2021",
       "ngay_hieu_luc": "01/01/2022",
-      "ngay_het_han": "",
+      "ngay_het_han": "30/06/2026",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
         1
@@ -10241,7 +10256,7 @@
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "20/03/2025",
       "ngay_hieu_luc": "01/06/2025",
-      "ngay_het_han": "",
+      "ngay_het_han": "30/06/2026",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
         8
@@ -10446,7 +10461,8 @@
       "ngay_het_han": "30/06/2026",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        1.26
+        1,
+        26
       ],
       "dmuc": [],
       "download": []
@@ -11141,7 +11157,12 @@
       "thay_the_cho": [],
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
-      "bi_sua_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "TT_89_2026_TT_BTC",
+          "ten": "Thông tư 89/2026/TT-BTC"
+        }
+      ],
       "bi_thay_boi": [],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "13/05/2026",
@@ -11474,7 +11495,7 @@
       "loai_van_ban": "Thông tư",
       "tieu_de": "32/2025/TT-BTC",
       "mo_ta": "Thông tư 32/2025/TT-BTC ngày 31/05/2025 hướng dẫn thực hiện Luật Quản lý thuế, Nghị định 123/2020/NĐ-CP quy định về hóa đơn, chứng từ, Nghị định 70/2025/NĐ-CP sửa đổi Nghị định 123/2020/NĐ-CP",
-      "file_type": "",
+      "file_type": "doc",
       "url": "TT32_2025_TT-BTC",
       "huong_dan_cho": [],
       "sua_doi_cho": [],
@@ -11671,6 +11692,41 @@
       "ngay_hieu_luc": "01/07/2026",
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        1
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TT_89_2026_TT_BTC",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "89/2026/TT-BTC",
+      "mo_ta": "Thông tư 89/2026/TT-BTC quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định 252/2026/NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế",
+      "file_type": "doc",
+      "url": "TT_89_2026_TT_BTC",
+      "huong_dan_cho": [
+        {
+          "id": "ND252_2026_ND-CP",
+          "ten": "Nghị định số 252/2026/NĐ-CP của Chính phủ"
+        }
+      ],
+      "sua_doi_cho": [
+        {
+          "id": "50_2026_TT-BTC",
+          "ten": "Mẫu số 01/TKN-CNKD Thông tư 50/2026/TT-BTC"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "30/06/2026",
+      "ngay_hieu_luc": "01/07/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ tài chính",
       "tag": [
         1
       ],
