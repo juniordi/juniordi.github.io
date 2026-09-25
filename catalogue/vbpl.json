@@ -1726,7 +1726,12 @@
           "ten": "Nghị định số 126/2020/NĐ-CP"
         }
       ],
-      "bi_thay_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "ND-253_2026_ND-CP",
+          "ten": "Nghị định 253/2026/NĐ-CP"
+        }
+      ],
       "hop_nhat_boi": [
         {
           "id": "5f6da59fb294b",
@@ -1735,7 +1740,7 @@
       ],
       "ngay_ban_hanh": "27/06/2013",
       "ngay_hieu_luc": "01/07/2013",
-      "ngay_het_han": "",
+      "ngay_het_han": "30/06/2026",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
         11
@@ -1893,6 +1898,10 @@
         {
           "id": "61e125273b4ef",
           "ten": "Thông tư số 80/2021/TT-BTC"
+        },
+        {
+          "id": "TT-87_2026_TT-BTC",
+          "ten": "Thông tư 87/2026/TT-BTC"
         }
       ],
       "hop_nhat_boi": [
@@ -1903,7 +1912,7 @@
       ],
       "ngay_ban_hanh": "15/08/2013",
       "ngay_hieu_luc": "01/10/2013",
-      "ngay_het_han": "",
+      "ngay_het_han": "30/06/2026",
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
         11
@@ -8368,6 +8377,10 @@
         {
           "id": "310_2025_ND_CP",
           "ten": "Nghị định 310/2025/NĐ-CP"
+        },
+        {
+          "id": "ND_291_2026_ND-CP",
+          "ten": "Nghị định 291/2026/NĐ-CP"
         }
       ],
       "bi_thay_boi": [],
@@ -10211,7 +10224,12 @@
       "thay_the_cho": [],
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
-      "bi_sua_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "ND_291_2026_ND-CP",
+          "ten": "Nghị định 291/2026/NĐ-CP"
+        }
+      ],
       "bi_thay_boi": [],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "02/12/2025",
@@ -10530,7 +10548,12 @@
         }
       ],
       "hop_nhat_cho": [],
-      "huong_dan_boi": [],
+      "huong_dan_boi": [
+        {
+          "id": "ND-253_2026_ND-CP",
+          "ten": "Nghị định 253/2026/NĐ-CP"
+        }
+      ],
       "bi_sua_boi": [
         {
           "id": "Luat_09_2026_QH16",
@@ -11684,7 +11707,12 @@
         }
       ],
       "hop_nhat_cho": [],
-      "huong_dan_boi": [],
+      "huong_dan_boi": [
+        {
+          "id": "TT_89_2026_TT_BTC",
+          "ten": "Thông tư 89/2026/TT-BTC"
+        }
+      ],
       "bi_sua_boi": [],
       "bi_thay_boi": [],
       "hop_nhat_boi": [],
@@ -11754,6 +11782,116 @@
       "noi_ban_hanh": "Chính phủ",
       "tag": [
         12
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "ND-253_2026_ND-CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "253/2026/NĐ-CP",
+      "mo_ta": "Nghị định 253/2026/NĐ-CP ngày 30/06/2026 hướng dẫn Luật Thuế thu nhập cá nhân",
+      "file_type": "doc",
+      "url": "ND-253_2026_ND-CP",
+      "huong_dan_cho": [
+        {
+          "id": "TNCN_109_2025_QH15",
+          "ten": "Thuế thu nhập cá nhân 2025 số 109/2025/QH15"
+        }
+      ],
+      "sua_doi_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "5f6da695a50c2",
+          "ten": "Nghị định số 65/2013/NĐ-CP"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [
+        {
+          "id": "TT-87_2026_TT-BTC",
+          "ten": "Thông tư 87/2026/TT-BTC"
+        }
+      ],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "30/06/2026",
+      "ngay_hieu_luc": "01/07/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        11
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TT-87_2026_TT-BTC",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "87/2026/TT-BTC",
+      "mo_ta": "Thông tư 87/2026/TT-BTC ngày 30/06/2026 hướng dẫn Luật Thuế thu nhập cá nhân và Nghị định 253/2026/NĐ-CP hướng dẫn Luật Thuế thu nhập cá nhân do Bộ trưởng Bộ Tài chính ban hành",
+      "file_type": "doc",
+      "url": "TT-87_2026_TT-BTC",
+      "huong_dan_cho": [
+        {
+          "id": "ND-253_2026_ND-CP",
+          "ten": "Nghị định 253/2026/NĐ-CP"
+        }
+      ],
+      "sua_doi_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "5f7aac18040f3",
+          "ten": "Thông tư 111/2013/TT-BTC"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "30/06/2026",
+      "ngay_hieu_luc": "01/07/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ tài chính",
+      "tag": [
+        11
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "ND_291_2026_ND-CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "291/2026/NĐ-CP",
+      "mo_ta": "Nghị định 291/2026/NĐ-CP ngày 21/07/2026 sửa đổi Nghị định 125/2020/NĐ-СР quy định xử phạt vi phạm hành chính về thuế, hóa đơn được sửa đổi, bổ sung bởi Nghị định 102/2021/NĐ-CP và Nghị định 310/2025/NĐ-CP",
+      "file_type": "doc",
+      "url": "ND_291_2026_ND-CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "5f8efb8f0361c",
+          "ten": "Nghị định 125/2020/NĐ-CP"
+        },
+        {
+          "id": "310_2025_ND_CP",
+          "ten": "Nghị định 310/2025/NĐ-CP"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "21/07/2026",
+      "ngay_hieu_luc": "21/07/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        14,
+        18
       ],
       "dmuc": [],
       "download": []
