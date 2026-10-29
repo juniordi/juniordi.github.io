@@ -8402,6 +8402,81 @@
       ]
     },
     {
+      "id": "ND125-2020-all",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "125/2020/NĐ-CP (đầy đủ)",
+      "mo_ta": "Nghị định 125/2020/NĐ-CP Quy định xử phạt vi phạm hành chính về thuế, hóa đơn",
+      "file_type": "doc",
+      "url": "ND125-2020-all",
+      "huong_dan_cho": [
+        {
+          "id": "5f7dd726dd94d",
+          "ten": "Luật số 15/2012/QH13 xử lý vi phạm hành chính"
+        }
+      ],
+      "sua_doi_cho": [
+        {
+          "id": "5f75ffe47c4dd",
+          "ten": "Nghị định số 129/2013/NĐ-CP"
+        },
+        {
+          "id": "5f7dd90849dc2",
+          "ten": "Nghị định số 109/2013/NĐ-CP"
+        },
+        {
+          "id": "5f7ee25307532",
+          "ten": "Nghị định số 49/2016/NĐ-CP"
+        }
+      ],
+      "thay_the_cho": [
+        {
+          "id": "5f7dd619c73f6",
+          "ten": "Thông tư số 166/2013/TT-BTC"
+        },
+        {
+          "id": "5f7ee482125e9",
+          "ten": "Thông tư số 10/2014/TT-BTC"
+        },
+        {
+          "id": "5f7fd126f38e5",
+          "ten": "Thông tư số 176/2016/TT-BTC"
+        }
+      ],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "61e134ab7b50f",
+          "ten": "Nghị định số 102/2021/NĐ-CP"
+        },
+        {
+          "id": "310_2025_ND_CP",
+          "ten": "Nghị định 310/2025/NĐ-CP"
+        },
+        {
+          "id": "ND_291_2026_ND-CP",
+          "ten": "Nghị định 291/2026/NĐ-CP"
+        }
+      ],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "19/10/2020",
+      "ngay_hieu_luc": "05/12/2020",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        14,
+        18
+      ],
+      "dmuc": [],
+      "download": [
+        {
+          "desc": "Toàn văn",
+          "path": "nghi-dinh-125-2020.docx"
+        }
+      ]
+    },
+    {
       "id": "5f9135179cd93",
       "loai_van_ban": "Nghị định",
       "tieu_de": "126/2020/NĐ-CP",
@@ -10640,7 +10715,12 @@
         }
       ],
       "hop_nhat_cho": [],
-      "huong_dan_boi": [],
+      "huong_dan_boi": [
+        {
+          "id": "TNDN_320_2025_ND_CP",
+          "ten": "Nghị định 320/2025/NĐ-CP hướng dẫn Luật Thuế thu nhập doanh nghiệp"
+        }
+      ],
       "bi_sua_boi": [
         {
           "id": "Luat_09_2026_QH16",
@@ -11745,7 +11825,20 @@
           "ten": "Mẫu số 01/TKN-CNKD Thông tư 50/2026/TT-BTC"
         }
       ],
-      "thay_the_cho": [],
+      "thay_the_cho": [
+        {
+          "id": "TT_103_2014_TT-BTC",
+          "ten": "Thông tư 103/2014/TT-BTC"
+        },
+        {
+          "id": "5f785286b7497",
+          "ten": "Thông tư 92/2015/TT-BTC"
+        },
+        {
+          "id": "61e125273b4ef",
+          "ten": "Thông tư số 80/2021/TT-BTC"
+        }
+      ],
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
       "bi_sua_boi": [],
@@ -11895,6 +11988,36 @@
       ],
       "dmuc": [],
       "download": []
+    },
+    {
+      "id": "TT_103_2014_TT-BTC",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "103/2014/TT-BTC",
+      "mo_ta": "Thông tư 103/2014/TT-BTC ngày 06/08/2014 hướng dẫn thực hiện nghĩa vụ thuế tổ chức cá nhân nước ngoài kinh doanh Việt Nam",
+      "file_type": "doc",
+      "url": "TT_103_2014_TT-BTC",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "TT_89_2026_TT_BTC",
+          "ten": "Thông tư 89/2026/TT-BTC"
+        }
+      ],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "06/08/2014",
+      "ngay_hieu_luc": "01/10/2014",
+      "ngay_het_han": "30/06/2026",
+      "noi_ban_hanh": "Bộ tài chính",
+      "tag": [
+        27
+      ],
+      "dmuc": [],
+      "download": []
     }
   ],
   "dmuc": [
@@ -12001,6 +12124,10 @@
     {
       "id": 26,
       "ten": "Hoãn xuất cảnh"
+    },
+    {
+      "id": 27,
+      "ten": "Thuế nhà thầu"
     }
   ]
 }
