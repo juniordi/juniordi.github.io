@@ -3995,10 +3995,19 @@
         {
           "id": "TAIN_41_2024_TT_BTC",
           "ten": "Thông tư 41/2024/TT-BTC"
+        },
+        {
+          "id": "TT-135_2026",
+          "ten": "Thông tư 135/2026/TT-BTC"
         }
       ],
       "bi_thay_boi": [],
-      "hop_nhat_boi": [],
+      "hop_nhat_boi": [
+        {
+          "id": "VBHN-33_2026",
+          "ten": "Văn bản hợp nhất 33/2026/VBHN-TT-BTC"
+        }
+      ],
       "ngay_ban_hanh": "02/10/2015",
       "ngay_hieu_luc": "20/11/2015",
       "ngay_het_han": "",
@@ -4218,7 +4227,12 @@
       "huong_dan_boi": [],
       "bi_sua_boi": [],
       "bi_thay_boi": [],
-      "hop_nhat_boi": [],
+      "hop_nhat_boi": [
+        {
+          "id": "VBHN-33_2026",
+          "ten": "Văn bản hợp nhất 33/2026/VBHN-TT-BTC"
+        }
+      ],
       "ngay_ban_hanh": "20/01/2016",
       "ngay_hieu_luc": "01/07/2016",
       "ngay_het_han": "",
@@ -4937,11 +4951,16 @@
       "huong_dan_boi": [],
       "bi_sua_boi": [],
       "bi_thay_boi": [],
-      "hop_nhat_boi": [],
+      "hop_nhat_boi": [
+        {
+          "id": "VBHN-33_2026",
+          "ten": "Văn bản hợp nhất 33/2026/VBHN-TT-BTC"
+        }
+      ],
       "ngay_ban_hanh": "28/10/2016",
       "ngay_hieu_luc": "12/12/2016",
       "ngay_het_han": "",
-      "noi_ban_hanh": "Quốc hội",
+      "noi_ban_hanh": "Bộ Tài chính",
       "tag": [
         4
       ],
@@ -9669,7 +9688,16 @@
       ],
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
-      "bi_sua_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "TT-94_2025",
+          "ten": ""
+        },
+        {
+          "id": "Thông tư 94/2025/TT-BTC",
+          "ten": "TT_21_2026"
+        }
+      ],
       "bi_thay_boi": [
         {
           "id": "TT_89_2026_TT_BTC",
@@ -10818,6 +10846,41 @@
       "download": []
     },
     {
+      "id": "TT-94_2025",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "94/2025/TT-BTC",
+      "mo_ta": "Thông tư 94/2025/TT-BTC sửa đổi Thông tư 80/2021/TT-BTC hướng dẫn Luật Quản lý thuế và Nghị định 126/2020/NĐ-CP hướng dẫn Luật Quản lý thuế và sửa đổi mẫu biểu của Thông tư 40/2021/TT-BTC hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
+      "file_type": "doc",
+      "url": "TT-94_2025",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "61e125273b4ef",
+          "ten": "Thông tư 80/2021/TT-BTC"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "TT_89_2026_TT_BTC",
+          "ten": "Thông tư 89/2026/TT-BTC"
+        }
+      ],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "14/10/2025",
+      "ngay_hieu_luc": "14/10/2025",
+      "ngay_het_han": "30/06/2026",
+      "noi_ban_hanh": "Bộ tài chính",
+      "tag": [
+        1
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
       "id": "TNDN_320_2025_ND_CP",
       "loai_van_ban": "Nghị định",
       "tieu_de": "320/2025/NĐ-CP",
@@ -11006,7 +11069,12 @@
       "huong_dan_boi": [],
       "bi_sua_boi": [],
       "bi_thay_boi": [],
-      "hop_nhat_boi": [],
+      "hop_nhat_boi": [
+        {
+          "id": "VBHN-33_2026",
+          "ten": "Văn bản hợp nhất 33/2026/VBHN-TT-BTC"
+        }
+      ],
       "ngay_ban_hanh": "20/05/2024",
       "ngay_hieu_luc": "15/07/2024",
       "ngay_het_han": "",
@@ -11037,7 +11105,12 @@
         }
       ],
       "hop_nhat_cho": [],
-      "huong_dan_boi": [],
+      "huong_dan_boi": [
+        {
+          "id": "ND-360_2025",
+          "ten": "Nghị định 360/2025/NĐ-CP"
+        }
+      ],
       "bi_sua_boi": [
         {
           "id": "Luat_09_2026_QH16",
@@ -11082,6 +11155,41 @@
       "download": []
     },
     {
+      "id": "ND-360_2025",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "360/2025/NĐ-CP",
+      "mo_ta": "Nghị định 360/2025/NĐ-CP hướng dẫn Luật Thuế tiêu thụ đặc biệt",
+      "file_type": "doc",
+      "url": "ND-360_2025",
+      "huong_dan_cho": [
+        {
+          "id": "TTDB_66_2025_QH15",
+          "ten": "Luật thuế tiêu thụ đặc biệt số 66/2025/QH15"
+        }
+      ],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [
+        {
+          "id": "TT-158_2025",
+          "ten": "Thông tư 158/2025/TT-BTC"
+        }
+      ],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "31/12/2025",
+      "ngay_hieu_luc": "01/01/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        10
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
       "id": "QLT_373_2025_ND_CP",
       "loai_van_ban": "Nghị định",
       "tieu_de": "373/2025/NĐ-CP",
@@ -11116,6 +11224,41 @@
       "noi_ban_hanh": "Nghị định",
       "tag": [
         1
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TT-158_2025",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "158/2025/TT-BTC",
+      "mo_ta": "Thông tư 158/2025/TT-BTC hướng dẫn Nghị định 360/2025/NĐ-CP hướng dẫn Luật Thuế tiêu thụ đặc biệt do Bộ trưởng Bộ Tài chính ban hành",
+      "file_type": "doc",
+      "url": "TT-158_2025",
+      "huong_dan_cho": [
+        {
+          "id": "ND-360_2025",
+          "ten": "Nghị định 360/2025/NĐ-CP"
+        }
+      ],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "TT-136_2026",
+          "ten": "Thông tư 136/2026/TT-BTC"
+        }
+      ],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "31/12/2025",
+      "ngay_hieu_luc": "01/01/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ Tài chính",
+      "tag": [
+        10
       ],
       "dmuc": [],
       "download": []
@@ -11178,6 +11321,41 @@
       "noi_ban_hanh": "Bộ Tài chính",
       "tag": [
         3
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TT_21_2026",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "21/2026/TT-BTC",
+      "mo_ta": "Thông tư 21/2026/TT-BTС sửa đổi Thông tư 80/2021/TT-BTC hướng dẫn Luật Quản lý thuế và Nghị định 126/2020/NĐ-CP hướng dẫn Luật Quản lý thuế",
+      "file_type": "doc",
+      "url": "TT_21_2026",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "61e125273b4ef",
+          "ten": "Thông tư 80/2021/TT-BTC"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "TT_89_2026_TT_BTC",
+          "ten": "Thông tư 89/2026/TT-BTC"
+        }
+      ],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "17/03/2026",
+      "ngay_hieu_luc": "17/03/2026",
+      "ngay_het_han": "30/06/2026",
+      "noi_ban_hanh": "Bộ tài chính",
+      "tag": [
+        1
       ],
       "dmuc": [],
       "download": []
@@ -11837,11 +12015,24 @@
         {
           "id": "61e125273b4ef",
           "ten": "Thông tư số 80/2021/TT-BTC"
+        },
+        {
+          "id": "TT-94_2025",
+          "ten": "Thông tư 94/2025/TT-BTC"
+        },
+        {
+          "id": "TT_21_2026",
+          "ten": "Thông tư 21/2026/TT-BTС"
         }
       ],
       "hop_nhat_cho": [],
       "huong_dan_boi": [],
-      "bi_sua_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "QD_BTC_2551-2026",
+          "ten": "Quyết định 2551/QĐ-BTC"
+        }
+      ],
       "bi_thay_boi": [],
       "hop_nhat_boi": [],
       "ngay_ban_hanh": "30/06/2026",
@@ -12015,6 +12206,212 @@
       "noi_ban_hanh": "Bộ tài chính",
       "tag": [
         27
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "NQ-43-2026-QH16",
+      "loai_van_ban": "Nghị quyết",
+      "tieu_de": "43/2026/QH16",
+      "mo_ta": "Nghị quyết số 43/2026/QH16 Về giảm thuế thu nhập cá nhân, thuế thu nhập doanh nghiệp đối với cá nhân và doanh nghiệp",
+      "file_type": "doc",
+      "url": "NQ-43-2026-QH16",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [
+        {
+          "id": "ND-398_2026",
+          "ten": "Nghị định 398/2026/NĐ-CP"
+        }
+      ],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "24/08/2026",
+      "ngay_hieu_luc": "24/08/2026",
+      "ngay_het_han": "31/12/2027",
+      "noi_ban_hanh": "Quốc hội",
+      "tag": [
+        12
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TT-135_2026",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "135/2026/TT-BTC",
+      "mo_ta": "Thông tư 135/2026/TT-BTC sửa đổi Thông tư 152/2015/TT-BTC hướng dẫn về thuế tài nguyên được sửa đổi bởi Thông tư 41/2024/TT-BTC",
+      "file_type": "doc",
+      "url": "TT-135_2026",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "5f715281386f0",
+          "ten": "Thông tư số 152/2015/TT-BTC"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [
+        {
+          "id": "VBHN-33_2026",
+          "ten": "Văn bản hợp nhất 33/2026/VBHN-TT-BTC"
+        }
+      ],
+      "ngay_ban_hanh": "09/09/2026",
+      "ngay_hieu_luc": "09/09/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ tài chính",
+      "tag": [
+        4
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "VBHN-33_2026",
+      "loai_van_ban": "Văn bản hợp nhất",
+      "tieu_de": "33/2026/VBHN-TT-BTC",
+      "mo_ta": "Văn bản hợp nhất 33/2026/VBHN-TT-BTC hợp nhất Thông tư hướng dẫn về thuế tài nguyên",
+      "file_type": "doc",
+      "url": "VBHN-33_2026",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [
+        {
+          "id": "5f715281386f0",
+          "ten": "Thông tư số 152/2015/TT-BTC"
+        },
+        {
+          "id": "5f718a55f2d53",
+          "ten": "Thông tư số 12/2016/TT-BTC"
+        },
+        {
+          "id": "5f715842a0dd7",
+          "ten": "Thông tư số 174/2016/TT-BTC"
+        },
+        {
+          "id": "TAIN_41_2024_TT_BTC",
+          "ten": "Thông tư số 41/2024/TT-BTC"
+        },
+        {
+          "id": "TT-135_2026",
+          "ten": "Thông tư số 135/2026/TT-BTC"
+        }
+      ],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "09/09/2026",
+      "ngay_hieu_luc": "09/09/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ tài chính",
+      "tag": [
+        4
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "TT-136_2026",
+      "loai_van_ban": "Thông tư",
+      "tieu_de": "136/2026/TT-BTC",
+      "mo_ta": "Thông tư 136/2026/TT-BTC sửa đổi Khoản 2 Điều 3 Thông tư 158/2025/TT-BTC hướng dẫn Nghị định 360/2025/NĐ-CP hướng dẫn Luật Thuế tiêu thụ đặc biệt",
+      "file_type": "doc",
+      "url": "TT-136_2026",
+      "huong_dan_cho": [
+        {
+          "id": "ND-360_2025",
+          "ten": "Nghị định 360/2025/NĐ-CP"
+        }
+      ],
+      "sua_doi_cho": [
+        {
+          "id": "TT-158_2025",
+          "ten": "Thông tư 158/2025/TT-BTC"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "14/09/2026",
+      "ngay_hieu_luc": "15/09/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ Tài chính",
+      "tag": [
+        10
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "QD_BTC_2551-2026",
+      "loai_van_ban": "Quyết định",
+      "tieu_de": "2551/QĐ-BTC",
+      "mo_ta": "Quyết định 2551/QĐ-BTC năm 2026 đính chính Thông tư 89/2026/TT-BTC hướng dẫn Luật Quản lý thuế và Nghị định 252/2026/NĐ-CP hướng dẫn Luật Quản lý thuế",
+      "file_type": "doc",
+      "url": "QD_BTC_2551-2026",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "TT_89_2026_TT_BTC",
+          "ten": "Thông tư 89/2026/TT-BTC"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "15/09/2026",
+      "ngay_hieu_luc": "15/09/2026",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ tài chính",
+      "tag": [
+        1
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "ND-398_2026",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "398/2026/NĐ-CP",
+      "mo_ta": "Nghị định 398/2026/NĐ-CP quy định chi tiết giảm thuế thu nhập cá nhân và doanh nghiệp",
+      "file_type": "doc",
+      "url": "ND-398_2026",
+      "huong_dan_cho": [
+        {
+          "id": "NQ-43-2026-QH16",
+          "ten": "Nghị quyết số 43/2026/QH16"
+        }
+      ],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "29/10/2026",
+      "ngay_hieu_luc": "29/10/2026",
+      "ngay_het_han": "31/12/2027",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        12
       ],
       "dmuc": [],
       "download": []
