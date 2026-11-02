@@ -250,7 +250,7 @@
 							}
 
 							//Gán đúng URL của văn bản hiện tại vào thuộc tính href
-							canonicalTag.setAttribute('href', 'https://apptax.net?vb='+ten_vb);
+							canonicalTag.setAttribute('href', 'https://apptax.net?vb='+new URL(window.location.href).searchParams.get('vb'));
 							//**************
 							
 							iframe.addEventListener('load', function() {
