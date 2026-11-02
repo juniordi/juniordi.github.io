@@ -38,12 +38,13 @@
               </div>
             </div>
         </div>
-        <footer class="footer" include-footer="footer.html"></footer>
+        <footer class="footer" include-footer="footer.html">
+        </footer>
     </div>
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	  <script src="js/menu.js"></script>
+	<script src="js/menu.js"></script>
     <script src="js/lib.js"></script>
     <script type="text/javascript">
 		$(document).ready(function(){includeHTML();includeFooter();})
@@ -237,6 +238,20 @@
 							iframe.setAttribute('loading', 'lazy');
 							iframe.title = `Nội dung hiển thị: ${detail['loai_van_ban']} số ${detail['tieu_de']}`; //detail['loai_van_ban']+' số '+detail['tieu_de']
                             iframe.setAttribute('src',`vb/${detail['url']}.htm`);
+							
+							////*** Tìm xem trong thẻ <head> đã có thẻ link rel="canonical" chưa
+							let canonicalTag = document.querySelector('link[rel="canonical"]');
+
+							if (!canonicalTag) {
+								// Nếu chưa có thì tạo mới
+								canonicalTag = document.createElement('link');
+								canonicalTag.setAttribute('rel', 'canonical');
+								document.head.appendChild(canonicalTag);
+							}
+
+							//Gán đúng URL của văn bản hiện tại vào thuộc tính href
+							canonicalTag.setAttribute('href', 'https://apptax.net?vb='+ten_vb);
+							//**************
 							
 							iframe.addEventListener('load', function() {
 								try {
