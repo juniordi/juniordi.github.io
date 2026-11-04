@@ -8403,7 +8403,12 @@
         }
       ],
       "bi_thay_boi": [],
-      "hop_nhat_boi": [],
+      "hop_nhat_boi": [
+        {
+          "id": "VBHN_15-2026-VBHN-BTC",
+          "ten": "Văn bản hợp nhất 15/VBHN-BTC năm 2026"
+        }
+      ],
       "ngay_ban_hanh": "19/10/2020",
       "ngay_hieu_luc": "05/12/2020",
       "ngay_het_han": "",
@@ -8585,6 +8590,10 @@
       ],
       "bi_sua_boi": [
         {
+          "id": "ND-91_2022_ND-CP",
+          "ten": "Nghị định 91/2022/NĐ-CP"
+        },
+        {
           "id": "QLT_373_2025_ND_CP",
           "ten": "Nghị định 373/2025/NĐ-CP"
         }
@@ -8592,11 +8601,7 @@
       "bi_thay_boi": [
         {
           "id": "ND252_2026_ND-CP",
-          "ten": "Nghị định số 252/2026/NĐ-CP của Chính phủ Quy định chi tiết một số điều và biện pháp để tổ chức"
-        },
-        {
-          "id": "hướng dẫn thi hành Luật Quản lý thuế",
-          "ten": ""
+          "ten": "Nghị định số 252/2026/NĐ-CP"
         }
       ],
       "hop_nhat_boi": [],
@@ -9853,13 +9858,19 @@
       "huong_dan_boi": [],
       "bi_sua_boi": [],
       "bi_thay_boi": [],
-      "hop_nhat_boi": [],
+      "hop_nhat_boi": [
+        {
+          "id": "VBHN_15-2026-VBHN-BTC",
+          "ten": "Văn bản hợp nhất 15/VBHN-BTC năm 2026"
+        }
+      ],
       "ngay_ban_hanh": "16/11/2021",
       "ngay_hieu_luc": "01/01/2022",
       "ngay_het_han": "",
       "noi_ban_hanh": "Chính phủ",
       "tag": [
-        14
+        14,
+        18
       ],
       "dmuc": [],
       "download": [
@@ -10109,6 +10120,41 @@
       ]
     },
     {
+      "id": "ND-91_2022_ND-CP",
+      "loai_van_ban": "Nghị định",
+      "tieu_de": "91/2022/NĐ-CP",
+      "mo_ta": "Nghị định 91/2022/NĐ-CP sửa đổi Nghị định 126/2020/NĐ-CP hướng dẫn Luật Quản lý thuế",
+      "file_type": "doc",
+      "url": "ND-91_2022_ND-CP",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [
+        {
+          "id": "5f9135179cd93",
+          "ten": "Nghị định 126/2020/NĐ-CP"
+        }
+      ],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [],
+      "bi_thay_boi": [
+        {
+          "id": "ND252_2026_ND-CP",
+          "ten": "Nghị định số 252/2026/NĐ-CP"
+        }
+      ],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "30/10/2022",
+      "ngay_hieu_luc": "30/10/2022",
+      "ngay_het_han": "30/06/2026",
+      "noi_ban_hanh": "Chính phủ",
+      "tag": [
+        1
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
       "id": "44_2023_ND-CP",
       "loai_van_ban": "Nghị định",
       "tieu_de": "44/2023/NĐ-CP",
@@ -10334,7 +10380,12 @@
         }
       ],
       "bi_thay_boi": [],
-      "hop_nhat_boi": [],
+      "hop_nhat_boi": [
+        {
+          "id": "VBHN_15-2026-VBHN-BTC",
+          "ten": "Văn bản hợp nhất 15/VBHN-BTC năm 2026"
+        }
+      ],
       "ngay_ban_hanh": "02/12/2025",
       "ngay_hieu_luc": "16/01/2026",
       "ngay_het_han": "",
@@ -10569,11 +10620,7 @@
       "bi_thay_boi": [
         {
           "id": "ND252_2026_ND-CP",
-          "ten": "Nghị định số 252/2026/NĐ-CP của Chính phủ Quy định chi tiết một số điều và biện pháp để tổ chức"
-        },
-        {
-          "id": "hướng dẫn thi hành Luật Quản lý thuế",
-          "ten": ""
+          "ten": "Nghị định số 252/2026/NĐ-CP"
         }
       ],
       "hop_nhat_boi": [],
@@ -11551,6 +11598,50 @@
       "noi_ban_hanh": "Chính phủ",
       "tag": [
         2
+      ],
+      "dmuc": [],
+      "download": []
+    },
+    {
+      "id": "VBHN_15-2026-VBHN-BTC",
+      "loai_van_ban": "Văn bản hợp nhất",
+      "tieu_de": "15/VBHN-BTC",
+      "mo_ta": "Văn bản hợp nhất 15/VBHN-BTC năm 2026 hợp nhất Nghị định quy định xử phạt vi phạm hành chính trong lĩnh vực thuế và hóa đơn",
+      "file_type": "doc",
+      "url": "VBHN_15-2026-VBHN-BTC",
+      "huong_dan_cho": [],
+      "sua_doi_cho": [],
+      "thay_the_cho": [],
+      "hop_nhat_cho": [
+        {
+          "id": "5f8efb8f0361c",
+          "ten": "Nghị định 125/2020/NĐ-CP"
+        },
+        {
+          "id": "61e134ab7b50f",
+          "ten": "Nghị định 102/2021/NĐ-CP"
+        },
+        {
+          "id": "310_2025_ND_CP",
+          "ten": "Nghị định 310/2025/NĐ-CP"
+        }
+      ],
+      "huong_dan_boi": [],
+      "bi_sua_boi": [
+        {
+          "id": "ND_291_2026_ND-CP",
+          "ten": "Nghị định 291/2026/NĐ-CP"
+        }
+      ],
+      "bi_thay_boi": [],
+      "hop_nhat_boi": [],
+      "ngay_ban_hanh": "05/05/2026",
+      "ngay_hieu_luc": "05/12/2020",
+      "ngay_het_han": "",
+      "noi_ban_hanh": "Bộ Tài chính",
+      "tag": [
+        14,
+        18
       ],
       "dmuc": [],
       "download": []
